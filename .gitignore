@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Excel lock files
+~$*.xls*
+
+# Output-et e ndërmjetme rikrijohen me: python -m phase_1.run_phase1
+data/intermediate/*
+!data/intermediate/.gitkeep
