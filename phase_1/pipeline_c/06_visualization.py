@@ -1,11 +1,17 @@
+import importlib
 import numpy as np
 import pandas as pd
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-from matplotlib.patches import Patch
-from phase_1.pipeline_c import (CLASS_LABELS, FIGURES, TABLES, short_sector, read_table, mark_running)
+from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
+from matplotlib.patches import Patch, PathPatch
+from phase_1.pipeline_c import (CLASS_LABELS, RELATIVE_LABELS, MIN_MUNICIPAL_VALUE, FIGURES, TABLES,
+                                short_sector, read_table, mark_running)
+
+# Same boundary file, hash check and name crosswalk as Pipeline B, so both maps use one verified reference.
+geography = importlib.import_module('phase_1.pipeline_b.06_visualization')
 
 SURFACE, INK, SECONDARY, MUTED, GRID, AXIS = '#fcfcfb', '#0b0b0b', '#52514e', '#898781', '#e1e0d9', '#c3c2b7'
 DOMESTIC, IMPORT, NEUTRAL, UNKNOWN = '#2a78d6', '#e34948', '#a3a199', '#d6d4cc'
@@ -155,6 +161,134 @@ def biplot(scores, loadings, explained):
     return save(figure, 'c5_pca_biplot')
 
 
+def ring_centroid(ring):
+    """Area-weighted centroid of a polygon ring (shoelace formula)."""
+    x, y = np.asarray(ring, float).T
+    cross = x * np.roll(y, -1) - np.roll(x, -1) * y
+    area = cross.sum() / 2
+    if abs(area) < 1e-12:
+        return x.mean(), y.mean()
+    return ((x + np.roll(x, -1)) * cross).sum() / (6 * area), ((y + np.roll(y, -1)) * cross).sum() / (6 * area)
+
+
+def feature_polygons(feature):
+    geometry = feature['geometry']
+    return [geometry['coordinates']] if geometry['type'] == 'Polygon' else geometry['coordinates']
+
+
+def label_point(feature):
+    """Centroid of the largest polygon's outer ring, so the label sits inside the municipality."""
+    def area(ring):
+        x, y = np.asarray(ring, float).T
+        return abs((x * np.roll(y, -1) - np.roll(x, -1) * y).sum()) / 2
+    return ring_centroid(max((rings[0] for rings in feature_polygons(feature)), key=area))
+
+
+# Small municipalities whose labels would overlap a neighbour: label placed outside with a leader line (degrees).
+LABEL_OFFSETS = {'JUNIK': (-.2, -.06), 'MAMUSHË': (-.22, -.1), 'KLLOKOT': (.3, -.06), 'PARTESH': (.3, .05),
+                 'MITROVICË VERIORE': (-.5, .17)}
+
+
+def draw_map(axis, boundaries, names, colors, labels):
+    for feature in boundaries['features']:
+        municipality = names[feature['properties']['shapeName']]
+        for rings in feature_polygons(feature):
+            axis.add_patch(PathPatch(geography.polygon_path(rings), facecolor=colors[municipality],
+                                     edgecolor=SURFACE, linewidth=.8))
+        x, y = label_point(feature)
+        if municipality in LABEL_OFFSETS:
+            dx, dy = LABEL_OFFSETS[municipality]
+            axis.annotate(labels[municipality], xy=(x, y), xytext=(x + dx, y + dy), ha='center', va='center',
+                          fontsize=5.6, color=INK, linespacing=.95,
+                          arrowprops=dict(arrowstyle='-', color=SECONDARY, linewidth=.6, shrinkA=2, shrinkB=0))
+        else:
+            axis.text(x, y, labels[municipality], ha='center', va='center', fontsize=5.6, color=INK, linespacing=.95)
+    axis.autoscale_view()
+    axis.set_aspect(1 / np.cos(np.deg2rad(42.6)))
+    axis.axis('off')
+
+
+def municipal_map(municipal):
+    """Pooled 2019-2026 import share per municipality, absolute (left) and relative tertiles (right)."""
+    view = municipal.loc[municipal.window.eq('reported')].set_index('municipality')
+    boundaries, crosswalk = geography.load_boundaries(view.index)
+    names = crosswalk.set_index('boundary_name').municipality.to_dict()
+    shown = view.import_share.notna() & view.identified_total.ge(MIN_MUNICIPAL_VALUE)
+    national = view.import_total.sum() / (view.import_total.sum() + view.domestic_total.sum())
+    top = max(.5, np.ceil(view.loc[shown, 'import_share'].max() * 10) / 10)
+    cmap = LinearSegmentedColormap.from_list('origin', [DOMESTIC, '#f2f1ec', IMPORT])
+    color_norm = TwoSlopeNorm(vmin=0, vcenter=national, vmax=top)
+    short = {m: m.title().replace(' ', '\n', 1) if len(m) > 11 else m.title() for m in view.index}
+
+    figure, axes = plt.subplots(1, 2, figsize=(15, 8.4))
+    colors = {m: cmap(color_norm(view.import_share[m])) if shown[m] else UNKNOWN for m in view.index}
+    labels = {m: f'{short[m]}\n{view.import_share[m]:.0%}' if shown[m] else short[m] for m in view.index}
+    draw_map(axes[0], boundaries, names, colors, labels)
+    axes[0].set_title('Import share of identified-origin investment', fontsize=12)
+    bar = figure.colorbar(plt.cm.ScalarMappable(norm=color_norm, cmap=cmap), ax=axes[0], orientation='horizontal',
+                          fraction=.04, pad=.02, format=plt.FuncFormatter(lambda v, _: f'{v:.0%}'))
+    bar.ax.axvline(national, color=INK, linewidth=1.5)
+    bar.set_label(f'Colour centre = Kosovo average ({national:.0%}); blue below, red above', color=SECONDARY, fontsize=9)
+    bar.outline.set_visible(False)
+
+    relative = dict(zip(RELATIVE_LABELS, [DOMESTIC, NEUTRAL, IMPORT]))
+    relative_names = dict(zip(RELATIVE_LABELS, ['Lower third', 'Middle third', 'Upper third']))
+    colors = {m: relative[view.relative_class[m]] if shown[m] and isinstance(view.relative_class[m], str) else UNKNOWN
+              for m in view.index}
+    draw_map(axes[1], boundaries, names, colors, short)
+    axes[1].set_title('Relative import reliance (equal-frequency tertiles)', fontsize=12)
+    axes[1].legend(handles=[Patch(color=relative[c], label=relative_names[c]) for c in RELATIVE_LABELS]
+                   + [Patch(color=UNKNOWN, label=f'< {MIN_MUNICIPAL_VALUE / 1e6:g} M EUR identified: not compared')],
+                   loc='upper right', fontsize=8.5)
+    figure.suptitle('Where business investment relies on imports, by municipality (2019–2026 pooled)',
+                    x=.03, ha='left', fontweight='bold', fontsize=14)
+    figure.text(.03, .01, 'Import share = imports / (imports + domestic purchases); the mixed columns are excluded from both. '
+                'Boundaries: geoBoundaries / OpenStreetMap (CC BY-SA 2.0), as in Pipeline B.', fontsize=8, color=MUTED)
+    figure.subplots_adjust(left=.02, right=.98, top=.9, bottom=.08, wspace=.04)
+    return save(figure, 'c6_municipal_import_share_map')
+
+
+def sample_sensitivity_chart(summary, sectors):
+    """How far a 10% sample lands from the full-data import share, per design."""
+    designs = ['simple_random', 'stratified_year_sector', 'take_all_large']
+    colors = dict(zip(designs, [NEUTRAL, SERIES[0], SERIES[1]]))
+    names = dict(zip(designs, ['Simple random 10%', 'Stratified by year × sector', 'Take-all 1% largest + stratified rest']))
+    figure, (left, right) = plt.subplots(1, 2, figsize=(14, 7.5), gridspec_kw=dict(width_ratios=[1, 2.3]))
+    levels = ['national_year', 'sector_pooled']
+    x = np.arange(len(levels))
+    for k, design in enumerate(designs):
+        view = summary.set_index(['method', 'level']).loc[design].reindex(levels)
+        left.bar(x + (k - 1) * .26, view.mean_abs_error_pp, width=.24, color=colors[design], label=names[design])
+        for xi, value in zip(x + (k - 1) * .26, view.mean_abs_error_pp):
+            left.text(xi, value + .05, f'{value:.1f}', ha='center', fontsize=8.5, color=SECONDARY)
+    left.set_xticks(x, ['National,\nper year', 'Sector,\n2019–2026 pooled'])
+    left.set_ylabel('Mean absolute error (percentage points)')
+    left.set_title('Average error of the import share', fontsize=11)
+    left.set_ylim(0, summary.mean_abs_error_pp.max() * 1.45)
+    left.legend(loc='upper left', fontsize=8.5)
+
+    table = sectors.pivot(index='primary_sector', columns='method', values='mean_abs_error_pp')
+    records = sectors.groupby('primary_sector').records.first()
+    table = table.loc[records.sort_values().index]
+    y = np.arange(len(table))
+    right.hlines(y, table[designs].min(axis=1), table[designs].max(axis=1), color=GRID, linewidth=2, zorder=0)
+    for design in designs:
+        right.scatter(table[design], y, s=36, color=colors[design], label=names[design], zorder=3, edgecolor=SURFACE)
+    right.set_yticks(y, [f'{short_sector(s, 30)}  ({records[s]:,})' for s in table.index], fontsize=8.5)
+    right.set_xlabel('Mean absolute error (percentage points)')
+    right.set_title('Per sector (rows in the full data); smallest sectors at the bottom', fontsize=11)
+    right.grid(axis='x', color=GRID, linewidth=.8)
+    right.set_axisbelow(True)
+    figure.suptitle('Sampling: how close does a 10% sample get to the full-data import share?',
+                    x=.03, ha='left', fontweight='bold', fontsize=14)
+    first = summary.iloc[0]
+    figure.text(.03, -.01, f'{int(first.draws)} draws per design, the same ~{first.sampled_records_mean:,.0f} rows each, seed {int(first.seed)}. '
+                'The 1% largest rows hold about half of the identified investment, so including them always matters more than balancing sectors.',
+                fontsize=8, color=MUTED)
+    figure.tight_layout()
+    return save(figure, 'c7_sample_sensitivity')
+
+
 def main(persist=True):
     if persist:
         mark_running('06_visualization')
@@ -163,8 +297,11 @@ def main(persist=True):
     national = read_table('national_classes')
     ranking = read_table('municipal_ranking')
     scores, loadings, explained = read_table('pca_scores'), read_table('pca_loadings'), read_table('pca_explained_variance')
+    municipal = read_table('municipal_pooled_classes')
+    sampling, sampling_sectors = read_table('sample_sensitivity_summary'), read_table('sample_sensitivity_sectors')
     paths = [sector_share_chart(bootstrap), composition_chart(sectors, bootstrap), national_chart(national),
-             municipal_chart(ranking), biplot(scores, loadings, explained)]
+             municipal_chart(ranking), biplot(scores, loadings, explained), municipal_map(municipal),
+             sample_sensitivity_chart(sampling, sampling_sectors)]
     print(f'C06: {len(paths)} figures saved to {FIGURES.relative_to(FIGURES.parents[2])}.')
     return paths
 

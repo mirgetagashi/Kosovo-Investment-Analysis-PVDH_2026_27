@@ -19,6 +19,7 @@ def main():
         scores, loadings, explained, contrast = stage('03_transformation_pca').main(data, selection)
         classified, counts, ranking = stage('04_discretization_binarization').main(base)
         intervals = stage('05_sampling_bootstrap').main(data)
+        sampling, _, _ = stage('05b_sample_sensitivity').main(data)
         figures = stage('06_visualization').main()
         national = classified['national'].query("window == 'reported'")
         save_json(dict(status='PASS', input_records=len(data), input_sha256=status['dataset_sha256'],
@@ -29,6 +30,8 @@ def main():
             national_import_share=national.set_index('year').import_share.round(4).to_dict(),
             bootstrap=dict(iterations=BOOTSTRAP_ITERATIONS, seed=SEED,
                            stability=intervals.loc[intervals.sector_eligible].stability.value_counts().to_dict()),
+            sample_sensitivity_mean_abs_error_pp={f'{row.method}/{row.level}': round(float(row.mean_abs_error_pp), 3)
+                                                  for row in sampling.itertuples()},
             ranked_municipalities=len(ranking), figures=[path.name for path in figures]), VALIDATION)
         print('Pipeline C: PASS')
     except Exception as error:
