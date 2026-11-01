@@ -1,0 +1,67 @@
+{
+  "bootstrap": {
+    "iterations": 1000,
+    "seed": 42,
+    "stability": {
+      "class_stable": 17,
+      "dominance_stable_only": 2,
+      "undefined": 2
+    }
+  },
+  "class_robust_sectors": "4 of 19",
+  "dropped_features": [
+    "investment_imports_8pct",
+    "domestic_investment_purchases_8pct"
+  ],
+  "figures": [
+    "c1_sector_import_share.png",
+    "c2_sector_origin_composition.png",
+    "c3_national_import_share.png",
+    "c4_municipal_ranking.png",
+    "c5_pca_biplot.png",
+    "c6_municipal_import_share_map.png",
+    "c7_sample_sensitivity.png"
+  ],
+  "input_records": 124262,
+  "input_sha256": "49eea2046fec1cabf44b87a07a4073bc3c824a210c7b6f868435ef80cbe6c9c6",
+  "low_coverage_sectors": {
+    "Aktivitetet e shendetit te njeriut dhe te punes sociale": 0.163,
+    "Aktivitetet financiare dhe te sigurimit": 0.163,
+    "Arsimi": 0.159
+  },
+  "low_coverage_threshold": 0.25,
+  "national_import_share": {
+    "2019": 0.2509,
+    "2020": 0.1693,
+    "2021": 0.1652,
+    "2022": 0.1558,
+    "2023": 0.1785,
+    "2024": 0.2154,
+    "2025": 0.1903,
+    "2026": 0.2079
+  },
+  "pc2_separates_import_from_domestic": false,
+  "pca_explained_variance": {
+    "PC1": 0.7504,
+    "PC2": 0.1643,
+    "PC3": 0.0474,
+    "PC4": 0.0379
+  },
+  "pca_rows": 133,
+  "ranked_municipalities": 20,
+  "sample_sensitivity_mean_abs_error_pp": {
+    "simple_random/national_year": 2.21,
+    "simple_random/sector_pooled": 3.602,
+    "stratified_year_sector/national_year": 2.07,
+    "stratified_year_sector/sector_pooled": 3.777,
+    "take_all_large/national_year": 0.993,
+    "take_all_large/sector_pooled": 2.886
+  },
+  "selected_features": [
+    "investment_purchases_imports_without_vat",
+    "investment_purchases_imports_nondeductible_vat",
+    "investment_imports_18pct",
+    "domestic_investment_purchases_18pct"
+  ],
+  "status": "PASS"
+}
