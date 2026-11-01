@@ -1,0 +1,42 @@
+{
+  "figures": [
+    "a01_index_2019.png",
+    "a02_jan_jun_totals.png",
+    "a03_decomposition.png",
+    "a04_seasonality_heatmap.png",
+    "a05_recovery_by_sector.png",
+    "a06_yoy_bootstrap_ci.png",
+    "a07_growth_class_methods.png",
+    "a08_covid.png",
+    "a09_full_year_totals.png"
+  ],
+  "input_records": 124262,
+  "input_sha256": "49eea2046fec1cabf44b87a07a4073bc3c824a210c7b6f868435ef80cbe6c9c6",
+  "stages": [
+    "01_aggregation",
+    "02_feature_creation",
+    "03_transformation",
+    "04_discretization_binarization",
+    "05_sampling_sensitivity",
+    "06_visualization"
+  ],
+  "status": "PASS",
+  "tables": {
+    "annual_discretized": "113c331f5bc59aa949a03449721966d8249f8b5f44bb3f4de88c8a4217036f0d",
+    "annual_features": "e1481ec117071d7169ece234b56d3fcb5c2858c23706290ae67d1cf3de07852a",
+    "annual_index": "e8b6a85e8028026b02f8011eb8d13e4a998761b742e396f3006ea9e2443fb3c0",
+    "bootstrap_ci": "4f0a336014b546e22cb60323e2010a40ba9ab1b882c0bdac65c5719dd08313cb",
+    "cv_by_level": "2675b3fa2ce45f44d35bb70eb074c5e06344a0dddd4660965dcfb342fd5162e6",
+    "growth_class_comparison": "ec01ebf4b72bf67a486752fa3e69578f0f71d7b461fdd611b1e21026fb5c6eb0",
+    "growth_class_largest_share": "f4a9ff0d85acc5c20128ac55ccd55521fc9ddf1caf35fbab424d328237524dda",
+    "monthly_discretized": "5c47e600384bc5c67110729e024cd7636a872c54464142c035b174b53135da72",
+    "monthly_features": "f2e2162629f59a8aa936dea1c7d3803d408e4bf8769f9b069242a8a5872facc6",
+    "monthly_transformed": "ab041aaaa1937036ffd1cf5c7c1ceb42525e56bb917cc0bba1f52e4691650fdc",
+    "recovery": "e5b555c7915ac9ae478602608016d4f1d0753e12586017e6ff0c04808d395b32",
+    "sample_sensitivity": "a753507bb3a74d044a5121d32e90852121fd88cc0e50cfde3a210b86696be98c",
+    "seasonal_component": "48c2e029d7916140bc46b1aef6c9fa9a6da0375e610dd9e9caaf200fefc4e2b5",
+    "seasonality": "45f0bd9f51bee0d3e3bfcc71b019c64cad9195d1db16a26f212607270844cefa",
+    "skewness": "c0dde082a24f9439a9ca569d187a87bd0220732318efad69f6434fc83e295515",
+    "trend_slope": "eedc1f064afd3921da59577dbd2fc6dacdc13c265b519557927fcff45717b41a"
+  }
+}
