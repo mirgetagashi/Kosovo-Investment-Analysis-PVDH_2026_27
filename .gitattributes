@@ -1,1 +1,3 @@
 data/reference/kosovo_municipalities.geojson text eol=lf
+# Generated outputs are kept byte for byte, so the hashes in the validation files still match after checkout
+outputs/** -text
