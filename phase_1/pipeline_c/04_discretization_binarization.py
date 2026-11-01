@@ -47,7 +47,7 @@ def municipal_ranking(municipal):
     pooled = municipal.loc[municipal.window.eq('reported') & municipal.import_share.notna()]
     ranked = pooled.loc[pooled.identified_total.ge(MIN_MUNICIPAL_VALUE)]
     columns = ['municipality', 'import_share', 'import_share_lower', 'import_share_upper', 'identified_total',
-               'total_investment', 'source_records', 'origin_class']
+               'total_investment', 'identified_coverage', 'source_records', 'origin_class']
     domestic = ranked.nsmallest(RANKING_SIZE, 'import_share')[columns].assign(side='most_domestic')
     imported = ranked.nlargest(RANKING_SIZE, 'import_share')[columns].assign(side='most_import')
     result = pd.concat([domestic, imported], ignore_index=True)

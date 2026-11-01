@@ -10,6 +10,8 @@ c02 = importlib.import_module('phase_1.pipeline_c.02_feature_selection')
 c03 = importlib.import_module('phase_1.pipeline_c.03_transformation_pca')
 c04 = importlib.import_module('phase_1.pipeline_c.04_discretization_binarization')
 c05 = importlib.import_module('phase_1.pipeline_c.05_sampling_bootstrap')
+c05b = importlib.import_module('phase_1.pipeline_c.05b_sample_sensitivity')
+c06 = importlib.import_module('phase_1.pipeline_c.06_visualization')
 
 
 def investment_fixture(seed=0):
@@ -46,6 +48,9 @@ class PipelineCTests(unittest.TestCase):
         self.assertEqual(shares.share_status.tolist(), ['valid', 'zero_identified', 'negative_component', 'valid'])
         self.assertTrue(np.isnan(shares.import_share[1]) and np.isnan(shares.import_share[2]))
         self.assertAlmostEqual(shares.import_share_upper[1], 1.)
+        self.assertAlmostEqual(shares.identified_coverage[0], .5)
+        self.assertAlmostEqual(shares.identified_coverage[1], 0.)
+        self.assertTrue(np.isnan(shares.identified_coverage[2]))
 
     def test_aggregation_reconciles_and_jan_jun_window(self):
         data = investment_fixture()
@@ -103,6 +108,29 @@ class PipelineCTests(unittest.TestCase):
             self.assertGreaterEqual(row.ci_high, row.import_share)
         self.assertEqual(first.loc['B', 'stability'], 'class_stable')
 
+
+
+    def test_full_sample_reproduces_population_and_designs_have_equal_size(self):
+        data = investment_fixture()
+        summary, by_year, by_sector = c05b.sample_sensitivity(data, fraction=1., draws=2, seed=1)
+        self.assertTrue(np.allclose(summary.mean_abs_error_pp, 0))
+        self.assertTrue((by_sector.class_agreement == 1).all())
+        summary, _, _ = c05b.sample_sensitivity(data, fraction=.25, draws=3, seed=1)
+        sizes = summary.groupby('method').sampled_records_mean.first()
+        self.assertLessEqual(sizes.max() - sizes.min(), len(data) * .02)
+        again, _, _ = c05b.sample_sensitivity(data, fraction=.25, draws=3, seed=1)
+        pd.testing.assert_frame_equal(summary, again)
+        with self.assertRaises(ValueError):
+            c05b.sample_sensitivity(data, fraction=0)
+
+    def test_map_reference_matches_every_municipality_and_centroid(self):
+        x, y = c06.ring_centroid([[0, 0], [2, 0], [2, 2], [0, 2], [0, 0]])
+        self.assertAlmostEqual(x, 1.)
+        self.assertAlmostEqual(y, 1.)
+        crosswalk = pd.read_csv(c06.geography.REFERENCE / 'municipality_crosswalk.csv')
+        boundaries, _ = c06.geography.load_boundaries(crosswalk.municipality)
+        self.assertEqual(len(boundaries['features']), 38)
+        self.assertTrue(set(c06.LABEL_OFFSETS) <= set(crosswalk.municipality))
 
 if __name__ == '__main__':
     unittest.main()
