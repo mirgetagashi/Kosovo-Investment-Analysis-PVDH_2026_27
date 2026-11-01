@@ -79,37 +79,49 @@ def annual_features(annual):
 
 
 def recovery(sector_monthly):
-    """Months after the pandemic start until the 3-month average regains the 2019 monthly mean, per sector and measure."""
+    """Months after the pandemic start until the 3-month average regains the 2019 monthly mean, per sector and measure.
+
+    The trough is the lowest 3-month average whose three months all lie in the first pandemic year (May 2020 to
+    February 2021), so January and February 2020 never mask the shock. Recovery is the first month after the trough
+    at or above the baseline. A series that never fell below its baseline is 'no_decline' with zero recovery months.
+    """
     reported = sector_monthly.loc[sector_monthly.window.eq('reported')].copy()
     national = reported.groupby(['window', 'year', 'month', 'measure'], as_index=False).value.sum().assign(primary_sector='ALL')
     series = pd.concat([reported[national.columns], national], ignore_index=True)
     start = period_index(*COVID_START)
     rows = []
     for (measure, sector), group in series.groupby(['measure', 'primary_sector'], sort=False):
-        table = group.sort_values(['year', 'month']).reset_index(drop=True)
-        table['t'] = period_index(table.year, table.month)
+        observed = group.sort_values(['year', 'month']).reset_index(drop=True)
+        observed['t'] = period_index(observed.year, observed.month)
+        # A month without source records for this sector is zero investment, not a gap the rolling window may skip
+        grid = pd.RangeIndex(observed.t.min(), observed.t.max() + 1, name='t')
+        table = observed.set_index('t')[['value']].reindex(grid, fill_value=0).reset_index()
+        table['year'], table['month'] = BASE_YEAR + table.t // 12, table.t % 12 + 1
         table['rolling_3m'] = table.value.rolling(3).mean()
         baseline = table.loc[table.year.eq(BASE_YEAR), 'value'].mean()
         eligible = sector == 'ALL' or norm(sector) not in EXCLUDED_SECTORS
         row = dict(window='reported', measure=measure, primary_sector=sector, sector_eligible=eligible,
-                   baseline_2019_monthly=baseline, months_observed=len(table))
+                   baseline_2019_monthly=baseline, months_observed=len(observed))
         after = table.loc[table.t.ge(start)]
+        first_year = after.loc[after.t.between(start + 2, start + 11)]
         if not eligible:
             row.update(status='excluded_from_sector_analysis')
         elif not baseline > 0:
             row.update(status='no_positive_2019_baseline')
-        elif after.rolling_3m.isna().all():
+        elif first_year.rolling_3m.isna().all():
             row.update(status='insufficient_history')
         else:
-            first_year = after.loc[after.t.lt(start + 12)]
             trough = first_year.loc[first_year.rolling_3m.idxmin()]
-            regained = after.loc[after.rolling_3m.ge(baseline)]
-            row.update(status='valid', trough_year=int(trough.year), trough_month=int(trough.month),
-                       trough_rolling_3m=trough.rolling_3m, drop_pct=(trough.rolling_3m / baseline - 1) * 100,
-                       recovered=not regained.empty,
-                       recovery_months=int(regained.t.iloc[0] - start) if not regained.empty else np.nan,
-                       recovery_year=int(regained.year.iloc[0]) if not regained.empty else np.nan,
-                       recovery_month=int(regained.month.iloc[0]) if not regained.empty else np.nan)
+            row.update(trough_year=int(trough.year), trough_month=int(trough.month),
+                       trough_rolling_3m=trough.rolling_3m, drop_pct=(trough.rolling_3m / baseline - 1) * 100)
+            if trough.rolling_3m >= baseline:
+                row.update(status='no_decline', recovered=True, recovery_months=0)
+            else:
+                regained = after.loc[after.t.gt(trough.t) & after.rolling_3m.ge(baseline)]
+                row.update(status='valid', recovered=not regained.empty,
+                           recovery_months=int(regained.t.iloc[0] - start) if not regained.empty else np.nan,
+                           recovery_year=int(regained.year.iloc[0]) if not regained.empty else np.nan,
+                           recovery_month=int(regained.month.iloc[0]) if not regained.empty else np.nan)
         rows.append(row)
     columns = ['window', 'measure', 'primary_sector', 'sector_eligible', 'status', 'baseline_2019_monthly', 'months_observed',
                'trough_year', 'trough_month', 'trough_rolling_3m', 'drop_pct', 'recovered', 'recovery_months', 'recovery_year', 'recovery_month']

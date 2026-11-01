@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 from src.schema import MONEY
-from phase_1.pipeline_a import (WINDOWS, LEVELS, BASE_TABLES, INTERMEDIATE, TABLES,
-                                load_input, save_frame, mark_running)
+from phase_1.pipeline_a import (WINDOWS, LEVELS, BASE_TABLES, INTERMEDIATE, TABLES, MEASURES, TOTAL,
+                                load_input, save_frame, mark_running, with_total)
 
 
 def select_features(data):
@@ -13,7 +13,7 @@ def select_features(data):
     if not selected.month.between(1, 12).all():
         raise ValueError('Invalid month')
     selected['quarter'] = (selected.month - 1) // 3 + 1
-    return selected
+    return with_total(selected)
 
 
 def reporting_views(data):
@@ -22,7 +22,7 @@ def reporting_views(data):
 
 
 def long_sum(view, keys, window):
-    totals = view.groupby(keys)[MONEY].sum()
+    totals = view.groupby(keys)[MEASURES].sum()
     counts = view.groupby(keys).size().rename('source_records')
     months = view.groupby(keys[:1]).month.nunique().rename('months')
     frame = totals.stack().rename('value').reset_index().rename(columns={f'level_{len(keys)}': 'measure'})
@@ -41,9 +41,11 @@ def aggregate(data):
         result['sector_monthly'].append(long_sum(view, ['year', 'month', 'primary_sector'], window))
     result = {name: pd.concat(parts, ignore_index=True) for name, parts in result.items()}
     for window, view in reporting_views(frame):
-        source = view.groupby('year')[MONEY].sum()
+        source = view.groupby('year')[MEASURES].sum()
+        if not np.allclose(source[MONEY].sum(axis=1), source[TOTAL], rtol=1e-12, atol=.01):
+            raise ValueError(f'Total investment differs from the sum of the six amounts: {window}')
         for name, table in result.items():
-            totals = table.loc[table.window.eq(window)].groupby(['year', 'measure']).value.sum().unstack('measure')[MONEY]
+            totals = table.loc[table.window.eq(window)].groupby(['year', 'measure']).value.sum().unstack('measure')[MEASURES]
             if not np.allclose(source.to_numpy(), totals.reindex(source.index).to_numpy(), rtol=1e-12, atol=.01):
                 raise ValueError(f'Aggregation mismatch: {name}/{window}')
     return result
@@ -73,7 +75,7 @@ def main(data=None, persist=True):
         for name in BASE_TABLES:
             save_frame(result[name], INTERMEDIATE / f'{name}.csv')
         save_frame(cv, TABLES / 'cv_by_level.csv')
-        print('A01: 9 features selected; monthly, quarterly, annual and sector series reconcile to source values.')
+        print('A01: 9 features selected plus total investment; monthly, quarterly, annual and sector series reconcile to source values.')
         print(cv.pivot(index='measure', columns='level', values='cv').round(3).to_string())
     return result, cv
 

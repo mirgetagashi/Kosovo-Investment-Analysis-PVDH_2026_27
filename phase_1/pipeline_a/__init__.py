@@ -2,8 +2,12 @@ import numpy as np
 import pandas as pd
 from src.io_utils import ROOT, save_frame, save_json
 from src.schema import MONEY, norm
-from phase_1.pipeline_b import load_input, MEASURE_LABELS, WINDOWS, EXCLUDED_SECTORS
+from phase_1.pipeline_b import load_input, MEASURE_LABELS as SOURCE_LABELS, WINDOWS, EXCLUDED_SECTORS
 
+# The six source amounts plus their sum, so the headline question has one series to answer it
+TOTAL = 'total_investment'
+MEASURES = MONEY + [TOTAL]
+MEASURE_LABELS = {**SOURCE_LABELS, TOTAL: 'Total investment (all six amounts)'}
 LEVELS = ('monthly', 'quarterly', 'annual')
 GROUP = ['window', 'measure']
 BASE_YEAR = 2019
@@ -17,6 +21,11 @@ TABLES = ROOT / 'outputs/tables/pipeline_a'
 FIGURES = ROOT / 'outputs/figures/pipeline_a'
 VALIDATION = ROOT / 'outputs/pipeline_a_validation.json'
 BASE_TABLES = ['monthly', 'quarterly', 'annual', 'sector_monthly']
+
+
+def with_total(data):
+    """Row-level sum of the six amounts; negatives stay in, so the total matches the source sums."""
+    return data.assign(**{TOTAL: data[MONEY].sum(axis=1)})
 
 
 def widen(values):
