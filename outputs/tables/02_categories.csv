@@ -1,0 +1,688 @@
+﻿year,attribute,value,records,edge_whitespace,interpretation,review_reason,example_file,example_excel_row,domain_status
+2019,primary_sector,Industria perpunuese,1587,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,685,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1583,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,1235,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Ndertimtaria,1370,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,926,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Transporti dhe magazinimi,1101,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,1143,UNRESOLVED: no authoritative codebook
+2019,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1004,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,293,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,996,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,468,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Akomodimi dhe sherbimi ushqimor,966,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,36,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Informimi dhe komunikimi,925,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,816,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Sherbimet administrative dhe mbeshtetese,805,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,1076,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,695,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,581,UNRESOLVED: no authoritative codebook
+2019,primary_sector,"Artet, Argetimi dhe rekreacioni",624,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,417,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Aktivitetet e tjera sherbyese,599,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,196,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Industria nxjerrese,575,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,636,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Aktivitetet financiare dhe te sigurimit,568,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,246,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,564,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,149,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Arsimi,486,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,376,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Person Fizik,410,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2019.xlsx,1041,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Aktivitetet e patundshmerise,401,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,117,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Mungon aktiviteti,401,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2019.xlsx,893,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,364,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,7,UNRESOLVED: no authoritative codebook
+2019,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",359,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,551,UNRESOLVED: no authoritative codebook
+2019,primary_sector,Aktivitetet e trupave dhe organizatave nderkombetare,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,245,UNRESOLVED: no authoritative codebook
+2019,registration_status,SH.P.K.,5651,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,7,UNRESOLVED: no authoritative codebook
+2019,registration_status,Individual,5394,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,8,UNRESOLVED: no authoritative codebook
+2019,registration_status,Ortakëria e përgj.,1344,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,21,UNRESOLVED: no authoritative codebook
+2019,registration_status,Shoqëri akcionare,1061,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,86,UNRESOLVED: no authoritative codebook
+2019,registration_status,Kompani e huaj,817,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,27,UNRESOLVED: no authoritative codebook
+2019,registration_status,Ndërmarrje shoq.,597,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,28,UNRESOLVED: no authoritative codebook
+2019,registration_status,Person fizik,410,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,1041,UNRESOLVED: no authoritative codebook
+2019,registration_status,OJQ,372,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,10,UNRESOLVED: no authoritative codebook
+2019,registration_status, Konsorcium,98,True,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,24,UNRESOLVED: no authoritative codebook
+2019,registration_status,Projekt,97,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,30,UNRESOLVED: no authoritative codebook
+2019,registration_status,Ndërmarrje pub.,96,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,141,UNRESOLVED: no authoritative codebook
+2019,registration_status,Ndërmarrje nën menaxhim të AKP-së,84,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,252,UNRESOLVED: no authoritative codebook
+2019,registration_status,Tjeter,74,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2019.xlsx,347,UNRESOLVED: no authoritative codebook
+2019,registration_status,Kooperativa Bujq.,72,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,479,UNRESOLVED: no authoritative codebook
+2019,registration_status, Përfaqësues Fiskal,66,True,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,25,UNRESOLVED: no authoritative codebook
+2019,registration_status,Kooperativa,30,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,736,UNRESOLVED: no authoritative codebook
+2019,registration_status,Shoqëri Komandite,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,782,UNRESOLVED: no authoritative codebook
+2019,registration_status,Organizata Buxhetore,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,871,UNRESOLVED: no authoritative codebook
+2019,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,425,UNRESOLVED: no authoritative codebook
+2019,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,281,UNRESOLVED: no authoritative codebook
+2019,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,233,UNRESOLVED: no authoritative codebook
+2019,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,477,UNRESOLVED: no authoritative codebook
+2019,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,711,UNRESOLVED: no authoritative codebook
+2019,registration_status,Dega e Shoqërisë së Huaj,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,776,UNRESOLVED: no authoritative codebook
+2019,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,1342,UNRESOLVED: no authoritative codebook
+2019,municipality,PRISHTINË,1502,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,24,UNRESOLVED: no authoritative codebook
+2019,municipality,PRIZREN,820,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,32,UNRESOLVED: no authoritative codebook
+2019,municipality,PEJË,779,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,20,UNRESOLVED: no authoritative codebook
+2019,municipality,FERIZAJ,771,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,7,UNRESOLVED: no authoritative codebook
+2019,municipality,GJAKOVË,719,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,10,UNRESOLVED: no authoritative codebook
+2019,municipality,GJILAN,711,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,12,UNRESOLVED: no authoritative codebook
+2019,municipality,FUSHË KOSOVË,660,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,8,UNRESOLVED: no authoritative codebook
+2019,municipality,MITROVICË,660,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,17,UNRESOLVED: no authoritative codebook
+2019,municipality,LIPJAN,592,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,70,UNRESOLVED: no authoritative codebook
+2019,municipality,SUHAREKË,528,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,34,UNRESOLVED: no authoritative codebook
+2019,municipality,ISTOG,528,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,16,UNRESOLVED: no authoritative codebook
+2019,municipality,GRAÇANICË,506,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,55,UNRESOLVED: no authoritative codebook
+2019,municipality,VITI,503,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,35,UNRESOLVED: no authoritative codebook
+2019,municipality,PODUJEVË,492,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,23,UNRESOLVED: no authoritative codebook
+2019,municipality,GLLOGOC,480,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,14,UNRESOLVED: no authoritative codebook
+2019,municipality,RAHOVEC,444,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,101,UNRESOLVED: no authoritative codebook
+2019,municipality,OBILIQ,438,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,18,UNRESOLVED: no authoritative codebook
+2019,municipality,VUSHTRRI,432,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,115,UNRESOLVED: no authoritative codebook
+2019,municipality,DEÇAN,423,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,36,UNRESOLVED: no authoritative codebook
+2019,municipality,KLINË,409,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,67,UNRESOLVED: no authoritative codebook
+2019,municipality,MALISHEVË,400,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,73,UNRESOLVED: no authoritative codebook
+2019,municipality,KAÇANIK,396,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,64,UNRESOLVED: no authoritative codebook
+2019,municipality,KAMENICË,372,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,62,UNRESOLVED: no authoritative codebook
+2019,municipality,SKENDERAJ,323,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,107,UNRESOLVED: no authoritative codebook
+2019,municipality,SHTIME,316,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,103,UNRESOLVED: no authoritative codebook
+2019,municipality,DRAGASH,312,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,39,UNRESOLVED: no authoritative codebook
+2019,municipality,SHTËRPCË,266,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,104,UNRESOLVED: no authoritative codebook
+2019,municipality,HANI I ELEZIT,237,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,15,UNRESOLVED: no authoritative codebook
+2019,municipality,LEPOSAVIQ,227,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,69,UNRESOLVED: no authoritative codebook
+2019,municipality,MITROVICË VERIORE,225,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,80,UNRESOLVED: no authoritative codebook
+2019,municipality,MAMUSHË,156,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,75,UNRESOLVED: no authoritative codebook
+2019,municipality,NOVOBËRDË,148,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,82,UNRESOLVED: no authoritative codebook
+2019,municipality,ZUBIN POTOK,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,374,UNRESOLVED: no authoritative codebook
+2019,municipality,ZVEÇAN,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,375,UNRESOLVED: no authoritative codebook
+2019,municipality,KLLOKOT,140,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,325,UNRESOLVED: no authoritative codebook
+2019,municipality,PARTESH,96,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,87,UNRESOLVED: no authoritative codebook
+2019,municipality,JUNIK,96,False,observed category,No missing meaning identified; domain still unverified,Investimet-2019.xlsx,434,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Industria perpunuese,1559,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,702,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1556,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,1254,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Ndertimtaria,1351,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,946,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Transporti dhe magazinimi,1063,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,1162,UNRESOLVED: no authoritative codebook
+2020,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1032,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,300,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,985,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,482,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Akomodimi dhe sherbimi ushqimor,949,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,39,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Informimi dhe komunikimi,906,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,835,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Sherbimet administrative dhe mbeshtetese,827,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,1093,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,693,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,595,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Aktivitetet e tjera sherbyese,623,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,203,UNRESOLVED: no authoritative codebook
+2020,primary_sector,"Artet, Argetimi dhe rekreacioni",619,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,428,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,585,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,154,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Industria nxjerrese,562,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,654,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Aktivitetet financiare dhe te sigurimit,533,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,254,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Arsimi,518,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,386,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Aktivitetet e patundshmerise,423,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,119,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Mungon aktiviteti,395,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2020.xlsx,912,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Person Fizik,390,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2020.xlsx,1060,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,374,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,7,UNRESOLVED: no authoritative codebook
+2020,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",357,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,565,UNRESOLVED: no authoritative codebook
+2020,primary_sector,Aktivitetet e trupave dhe organizatave nderkombetare,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,253,UNRESOLVED: no authoritative codebook
+2020,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",1,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,13766,UNRESOLVED: no authoritative codebook
+2020,registration_status,SH.P.K.,5765,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,8,UNRESOLVED: no authoritative codebook
+2020,registration_status,Individual,5386,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,7,UNRESOLVED: no authoritative codebook
+2020,registration_status,Ortakëria e përgj.,1281,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,24,UNRESOLVED: no authoritative codebook
+2020,registration_status,Shoqëri akcionare,1044,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,89,UNRESOLVED: no authoritative codebook
+2020,registration_status,Kompani e huaj,804,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,30,UNRESOLVED: no authoritative codebook
+2020,registration_status,Ndërmarrje shoq.,561,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,31,UNRESOLVED: no authoritative codebook
+2020,registration_status,Person fizik,390,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,1060,UNRESOLVED: no authoritative codebook
+2020,registration_status,OJQ,361,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,11,UNRESOLVED: no authoritative codebook
+2020,registration_status, Konsorcium,130,True,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,27,UNRESOLVED: no authoritative codebook
+2020,registration_status,Projekt,92,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,33,UNRESOLVED: no authoritative codebook
+2020,registration_status,Ndërmarrje pub.,90,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,145,UNRESOLVED: no authoritative codebook
+2020,registration_status,Ndërmarrje nën menaxhim të AKP-së,78,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,260,UNRESOLVED: no authoritative codebook
+2020,registration_status,Kooperativa Bujq.,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,493,UNRESOLVED: no authoritative codebook
+2020,registration_status, Përfaqësues Fiskal,58,True,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,28,UNRESOLVED: no authoritative codebook
+2020,registration_status,Tjeter,50,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2020.xlsx,356,UNRESOLVED: no authoritative codebook
+2020,registration_status,Shoqëri Komandite,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,801,UNRESOLVED: no authoritative codebook
+2020,registration_status,Kooperativa,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,754,UNRESOLVED: no authoritative codebook
+2020,registration_status,Organizata Buxhetore,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,890,UNRESOLVED: no authoritative codebook
+2020,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,491,UNRESOLVED: no authoritative codebook
+2020,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,436,UNRESOLVED: no authoritative codebook
+2020,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,240,UNRESOLVED: no authoritative codebook
+2020,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,288,UNRESOLVED: no authoritative codebook
+2020,registration_status,Dega e Shoqërisë së Huaj,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,795,UNRESOLVED: no authoritative codebook
+2020,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,729,UNRESOLVED: no authoritative codebook
+2020,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,1360,UNRESOLVED: no authoritative codebook
+2020,registration_status,Zyra e Përfaqësisë në Kosovë,1,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,15972,UNRESOLVED: no authoritative codebook
+2020,municipality,PRISHTINË,1522,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,27,UNRESOLVED: no authoritative codebook
+2020,municipality,PRIZREN,799,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,35,UNRESOLVED: no authoritative codebook
+2020,municipality,FERIZAJ,764,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,7,UNRESOLVED: no authoritative codebook
+2020,municipality,PEJË,760,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,23,UNRESOLVED: no authoritative codebook
+2020,municipality,GJAKOVË,723,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,11,UNRESOLVED: no authoritative codebook
+2020,municipality,GJILAN,696,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,13,UNRESOLVED: no authoritative codebook
+2020,municipality,MITROVICË,665,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,20,UNRESOLVED: no authoritative codebook
+2020,municipality,FUSHË KOSOVË,662,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,9,UNRESOLVED: no authoritative codebook
+2020,municipality,LIPJAN,571,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,73,UNRESOLVED: no authoritative codebook
+2020,municipality,SUHAREKË,532,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,37,UNRESOLVED: no authoritative codebook
+2020,municipality,ISTOG,517,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,18,UNRESOLVED: no authoritative codebook
+2020,municipality,GRAÇANICË,516,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,16,UNRESOLVED: no authoritative codebook
+2020,municipality,PODUJEVË,487,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,26,UNRESOLVED: no authoritative codebook
+2020,municipality,VITI,481,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,38,UNRESOLVED: no authoritative codebook
+2020,municipality,OBILIQ,474,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,21,UNRESOLVED: no authoritative codebook
+2020,municipality,GLLOGOC,459,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,15,UNRESOLVED: no authoritative codebook
+2020,municipality,VUSHTRRI,439,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,117,UNRESOLVED: no authoritative codebook
+2020,municipality,DEÇAN,439,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,39,UNRESOLVED: no authoritative codebook
+2020,municipality,RAHOVEC,435,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,104,UNRESOLVED: no authoritative codebook
+2020,municipality,KLINË,433,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,70,UNRESOLVED: no authoritative codebook
+2020,municipality,MALISHEVË,405,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,76,UNRESOLVED: no authoritative codebook
+2020,municipality,KAMENICË,365,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,65,UNRESOLVED: no authoritative codebook
+2020,municipality,KAÇANIK,362,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,19,UNRESOLVED: no authoritative codebook
+2020,municipality,SHTIME,328,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,106,UNRESOLVED: no authoritative codebook
+2020,municipality,SKENDERAJ,318,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,110,UNRESOLVED: no authoritative codebook
+2020,municipality,DRAGASH,312,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,42,UNRESOLVED: no authoritative codebook
+2020,municipality,HANI I ELEZIT,254,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,17,UNRESOLVED: no authoritative codebook
+2020,municipality,SHTËRPCË,245,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,107,UNRESOLVED: no authoritative codebook
+2020,municipality,MITROVICË VERIORE,211,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,83,UNRESOLVED: no authoritative codebook
+2020,municipality,LEPOSAVIQ,206,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,335,UNRESOLVED: no authoritative codebook
+2020,municipality,ZVEÇAN,157,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,385,UNRESOLVED: no authoritative codebook
+2020,municipality,MAMUSHË,148,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,78,UNRESOLVED: no authoritative codebook
+2020,municipality,KLLOKOT,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,72,UNRESOLVED: no authoritative codebook
+2020,municipality,NOVOBËRDË,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,85,UNRESOLVED: no authoritative codebook
+2020,municipality,ZUBIN POTOK,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,384,UNRESOLVED: no authoritative codebook
+2020,municipality,JUNIK,102,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,445,UNRESOLVED: no authoritative codebook
+2020,municipality,PARTESH,86,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,90,UNRESOLVED: no authoritative codebook
+2020,municipality,RANILLUG,2,False,observed category,No missing meaning identified; domain still unverified,Investimet-2020.xlsx,14965,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1509,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1202,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Industria perpunuese,1482,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,682,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Ndertimtaria,1290,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,909,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Transporti dhe magazinimi,1020,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1117,UNRESOLVED: no authoritative codebook
+2021,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1019,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,293,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,958,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,471,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Akomodimi dhe sherbimi ushqimor,942,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,37,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Informimi dhe komunikimi,881,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,806,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Sherbimet administrative dhe mbeshtetese,823,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1049,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,672,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,582,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,630,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,151,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Aktivitetet e tjera sherbyese,618,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,199,UNRESOLVED: no authoritative codebook
+2021,primary_sector,"Artet, Argetimi dhe rekreacioni",583,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,421,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Industria nxjerrese,534,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,637,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Aktivitetet financiare dhe te sigurimit,533,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,250,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Arsimi,524,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,377,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Aktivitetet e patundshmerise,468,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,115,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Person Fizik,384,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2021.xlsx,1017,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Mungon aktiviteti,372,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2021.xlsx,879,UNRESOLVED: no authoritative codebook
+2021,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,358,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,7,UNRESOLVED: no authoritative codebook
+2021,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",348,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,553,UNRESOLVED: no authoritative codebook
+2021,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",1,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,14723,UNRESOLVED: no authoritative codebook
+2021,registration_status,SH.P.K.,5790,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,8,UNRESOLVED: no authoritative codebook
+2021,registration_status,Individual,5368,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,7,UNRESOLVED: no authoritative codebook
+2021,registration_status,Ortakëria e përgj.,1184,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,38,UNRESOLVED: no authoritative codebook
+2021,registration_status,Shoqëri akcionare,1038,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,86,UNRESOLVED: no authoritative codebook
+2021,registration_status,Kompani e huaj,696,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,29,UNRESOLVED: no authoritative codebook
+2021,registration_status,Ndërmarrje shoq.,486,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,30,UNRESOLVED: no authoritative codebook
+2021,registration_status,Person fizik,384,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1017,UNRESOLVED: no authoritative codebook
+2021,registration_status,OJQ,360,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,11,UNRESOLVED: no authoritative codebook
+2021,registration_status, Konsorcium,128,True,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,26,UNRESOLVED: no authoritative codebook
+2021,registration_status,Projekt,82,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,32,UNRESOLVED: no authoritative codebook
+2021,registration_status,Ndërmarrje pub.,72,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,141,UNRESOLVED: no authoritative codebook
+2021,registration_status, Përfaqësues Fiskal,48,True,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,27,UNRESOLVED: no authoritative codebook
+2021,registration_status,Kooperativa Bujq.,48,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,482,UNRESOLVED: no authoritative codebook
+2021,registration_status,Ndërmarrje nën menaxhim të AKP-së,48,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,256,UNRESOLVED: no authoritative codebook
+2021,registration_status,Tjeter,48,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2021.xlsx,347,UNRESOLVED: no authoritative codebook
+2021,registration_status,Organizata Buxhetore,29,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,857,UNRESOLVED: no authoritative codebook
+2021,registration_status,Kooperativa,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,729,UNRESOLVED: no authoritative codebook
+2021,registration_status,Shoqëri Komandite,18,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,772,UNRESOLVED: no authoritative codebook
+2021,registration_status,Dega e Shoqërisë së Huaj,17,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,766,UNRESOLVED: no authoritative codebook
+2021,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,429,UNRESOLVED: no authoritative codebook
+2021,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,237,UNRESOLVED: no authoritative codebook
+2021,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,281,UNRESOLVED: no authoritative codebook
+2021,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,480,UNRESOLVED: no authoritative codebook
+2021,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,706,UNRESOLVED: no authoritative codebook
+2021,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1303,UNRESOLVED: no authoritative codebook
+2021,registration_status,Zyra e Përfaqësisë në Kosovë,9,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,986,UNRESOLVED: no authoritative codebook
+2021,municipality,PRISHTINË,1499,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,26,UNRESOLVED: no authoritative codebook
+2021,municipality,PRIZREN,767,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,34,UNRESOLVED: no authoritative codebook
+2021,municipality,FERIZAJ,747,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,7,UNRESOLVED: no authoritative codebook
+2021,municipality,PEJË,726,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,23,UNRESOLVED: no authoritative codebook
+2021,municipality,GJAKOVË,719,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,11,UNRESOLVED: no authoritative codebook
+2021,municipality,MITROVICË,651,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,20,UNRESOLVED: no authoritative codebook
+2021,municipality,FUSHË KOSOVË,648,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,9,UNRESOLVED: no authoritative codebook
+2021,municipality,GJILAN,647,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,13,UNRESOLVED: no authoritative codebook
+2021,municipality,SUHAREKË,534,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,35,UNRESOLVED: no authoritative codebook
+2021,municipality,LIPJAN,527,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,70,UNRESOLVED: no authoritative codebook
+2021,municipality,GRAÇANICË,516,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,16,UNRESOLVED: no authoritative codebook
+2021,municipality,ISTOG,501,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,18,UNRESOLVED: no authoritative codebook
+2021,municipality,VITI,489,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,36,UNRESOLVED: no authoritative codebook
+2021,municipality,PODUJEVË,478,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,25,UNRESOLVED: no authoritative codebook
+2021,municipality,OBILIQ,468,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,21,UNRESOLVED: no authoritative codebook
+2021,municipality,VUSHTRRI,457,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,113,UNRESOLVED: no authoritative codebook
+2021,municipality,KLINË,444,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,67,UNRESOLVED: no authoritative codebook
+2021,municipality,DEÇAN,440,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,37,UNRESOLVED: no authoritative codebook
+2021,municipality,GLLOGOC,427,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,15,UNRESOLVED: no authoritative codebook
+2021,municipality,RAHOVEC,421,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,99,UNRESOLVED: no authoritative codebook
+2021,municipality,MALISHEVË,411,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,73,UNRESOLVED: no authoritative codebook
+2021,municipality,KAÇANIK,371,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,19,UNRESOLVED: no authoritative codebook
+2021,municipality,SHTIME,356,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,101,UNRESOLVED: no authoritative codebook
+2021,municipality,KAMENICË,340,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,62,UNRESOLVED: no authoritative codebook
+2021,municipality,DRAGASH,312,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,40,UNRESOLVED: no authoritative codebook
+2021,municipality,SKENDERAJ,311,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,106,UNRESOLVED: no authoritative codebook
+2021,municipality,HANI I ELEZIT,264,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,17,UNRESOLVED: no authoritative codebook
+2021,municipality,SHTËRPCË,223,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,103,UNRESOLVED: no authoritative codebook
+2021,municipality,MITROVICË VERIORE,192,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,80,UNRESOLVED: no authoritative codebook
+2021,municipality,LEPOSAVIQ,190,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,394,UNRESOLVED: no authoritative codebook
+2021,municipality,ZVEÇAN,158,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,376,UNRESOLVED: no authoritative codebook
+2021,municipality,NOVOBËRDË,144,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,82,UNRESOLVED: no authoritative codebook
+2021,municipality,KLLOKOT,141,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,69,UNRESOLVED: no authoritative codebook
+2021,municipality,ZUBIN POTOK,141,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,375,UNRESOLVED: no authoritative codebook
+2021,municipality,MAMUSHË,129,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,75,UNRESOLVED: no authoritative codebook
+2021,municipality,JUNIK,85,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,438,UNRESOLVED: no authoritative codebook
+2021,municipality,PARTESH,63,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,754,UNRESOLVED: no authoritative codebook
+2021,municipality,RANILLUG,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2021.xlsx,1306,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Industria perpunuese,1498,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,697,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1489,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1223,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Ndertimtaria,1311,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,927,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Transporti dhe magazinimi,1038,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1136,UNRESOLVED: no authoritative codebook
+2022,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1028,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,312,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Akomodimi dhe sherbimi ushqimor,964,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,37,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,938,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,491,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Informimi dhe komunikimi,900,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,821,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Sherbimet administrative dhe mbeshtetese,845,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1066,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,706,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,158,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Aktivitetet e tjera sherbyese,665,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,215,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,646,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,598,UNRESOLVED: no authoritative codebook
+2022,primary_sector,"Artet, Argetimi dhe rekreacioni",595,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,442,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Arsimi,537,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,398,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Industria nxjerrese,536,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,653,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Aktivitetet financiare dhe te sigurimit,530,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,267,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Aktivitetet e patundshmerise,489,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,117,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Person Fizik,375,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2022.xlsx,1034,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Mungon aktiviteti,372,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2022.xlsx,896,UNRESOLVED: no authoritative codebook
+2022,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",365,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,569,UNRESOLVED: no authoritative codebook
+2022,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,362,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,7,UNRESOLVED: no authoritative codebook
+2022,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,116,UNRESOLVED: no authoritative codebook
+2022,registration_status,SH.P.K.,5982,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,8,UNRESOLVED: no authoritative codebook
+2022,registration_status,Individual,5362,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,7,UNRESOLVED: no authoritative codebook
+2022,registration_status,Ortakëria e përgj.,1136,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,38,UNRESOLVED: no authoritative codebook
+2022,registration_status,Shoqëri akcionare,1106,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,87,UNRESOLVED: no authoritative codebook
+2022,registration_status,Kompani e huaj,744,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,29,UNRESOLVED: no authoritative codebook
+2022,registration_status,Ndërmarrje shoq.,473,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,30,UNRESOLVED: no authoritative codebook
+2022,registration_status,Person fizik,375,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1034,UNRESOLVED: no authoritative codebook
+2022,registration_status,OJQ,365,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,11,UNRESOLVED: no authoritative codebook
+2022,registration_status, Konsorcium,132,True,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,26,UNRESOLVED: no authoritative codebook
+2022,registration_status,Ndërmarrje pub.,72,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,148,UNRESOLVED: no authoritative codebook
+2022,registration_status,Projekt,70,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,32,UNRESOLVED: no authoritative codebook
+2022,registration_status,Ndërmarrje nën menaxhim të AKP-së,53,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,273,UNRESOLVED: no authoritative codebook
+2022,registration_status, Përfaqësues Fiskal,48,True,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,27,UNRESOLVED: no authoritative codebook
+2022,registration_status,Tjeter,48,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2022.xlsx,368,UNRESOLVED: no authoritative codebook
+2022,registration_status,Kooperativa Bujq.,48,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,502,UNRESOLVED: no authoritative codebook
+2022,registration_status,Organizata Buxhetore,35,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,874,UNRESOLVED: no authoritative codebook
+2022,registration_status,Dega e Shoqërisë së Huaj,34,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,780,UNRESOLVED: no authoritative codebook
+2022,registration_status,Kooperativa,22,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,743,UNRESOLVED: no authoritative codebook
+2022,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,500,UNRESOLVED: no authoritative codebook
+2022,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,450,UNRESOLVED: no authoritative codebook
+2022,registration_status,Zyra e Përfaqësisë në Kosovë,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,377,UNRESOLVED: no authoritative codebook
+2022,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,298,UNRESOLVED: no authoritative codebook
+2022,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,254,UNRESOLVED: no authoritative codebook
+2022,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,720,UNRESOLVED: no authoritative codebook
+2022,registration_status,Shoqëri Komandite,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,786,UNRESOLVED: no authoritative codebook
+2022,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1321,UNRESOLVED: no authoritative codebook
+2022,municipality,PRISHTINË,1517,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,26,UNRESOLVED: no authoritative codebook
+2022,municipality,PRIZREN,768,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,34,UNRESOLVED: no authoritative codebook
+2022,municipality,FERIZAJ,744,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,7,UNRESOLVED: no authoritative codebook
+2022,municipality,GJAKOVË,736,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,11,UNRESOLVED: no authoritative codebook
+2022,municipality,PEJË,731,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,23,UNRESOLVED: no authoritative codebook
+2022,municipality,MITROVICË,674,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,20,UNRESOLVED: no authoritative codebook
+2022,municipality,GJILAN,649,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,13,UNRESOLVED: no authoritative codebook
+2022,municipality,FUSHË KOSOVË,626,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,9,UNRESOLVED: no authoritative codebook
+2022,municipality,SUHAREKË,554,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,35,UNRESOLVED: no authoritative codebook
+2022,municipality,LIPJAN,545,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,71,UNRESOLVED: no authoritative codebook
+2022,municipality,ISTOG,521,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,18,UNRESOLVED: no authoritative codebook
+2022,municipality,GRAÇANICË,521,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,16,UNRESOLVED: no authoritative codebook
+2022,municipality,VITI,500,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,36,UNRESOLVED: no authoritative codebook
+2022,municipality,PODUJEVË,478,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,25,UNRESOLVED: no authoritative codebook
+2022,municipality,OBILIQ,475,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,21,UNRESOLVED: no authoritative codebook
+2022,municipality,VUSHTRRI,468,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,114,UNRESOLVED: no authoritative codebook
+2022,municipality,DEÇAN,455,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,37,UNRESOLVED: no authoritative codebook
+2022,municipality,KLINË,448,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,67,UNRESOLVED: no authoritative codebook
+2022,municipality,GLLOGOC,444,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,15,UNRESOLVED: no authoritative codebook
+2022,municipality,MALISHEVË,437,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,74,UNRESOLVED: no authoritative codebook
+2022,municipality,RAHOVEC,430,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,100,UNRESOLVED: no authoritative codebook
+2022,municipality,KAÇANIK,396,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,19,UNRESOLVED: no authoritative codebook
+2022,municipality,SHTIME,370,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,102,UNRESOLVED: no authoritative codebook
+2022,municipality,KAMENICË,348,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,62,UNRESOLVED: no authoritative codebook
+2022,municipality,SKENDERAJ,326,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,107,UNRESOLVED: no authoritative codebook
+2022,municipality,DRAGASH,318,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,40,UNRESOLVED: no authoritative codebook
+2022,municipality,HANI I ELEZIT,247,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,17,UNRESOLVED: no authoritative codebook
+2022,municipality,SHTËRPCË,231,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,104,UNRESOLVED: no authoritative codebook
+2022,municipality,MITROVICË VERIORE,198,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,81,UNRESOLVED: no authoritative codebook
+2022,municipality,LEPOSAVIQ,187,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,347,UNRESOLVED: no authoritative codebook
+2022,municipality,KLLOKOT,156,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,69,UNRESOLVED: no authoritative codebook
+2022,municipality,ZVEÇAN,156,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,311,UNRESOLVED: no authoritative codebook
+2022,municipality,ZUBIN POTOK,132,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,396,UNRESOLVED: no authoritative codebook
+2022,municipality,NOVOBËRDË,132,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,83,UNRESOLVED: no authoritative codebook
+2022,municipality,MAMUSHË,128,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,76,UNRESOLVED: no authoritative codebook
+2022,municipality,JUNIK,95,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,733,UNRESOLVED: no authoritative codebook
+2022,municipality,PARTESH,48,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,768,UNRESOLVED: no authoritative codebook
+2022,municipality,RANILLUG,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2022.xlsx,1324,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Industria perpunuese,1495,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,714,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1477,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1242,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Ndertimtaria,1319,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,945,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Transporti dhe magazinimi,1054,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1154,UNRESOLVED: no authoritative codebook
+2023,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1036,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,324,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Akomodimi dhe sherbimi ushqimor,963,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,38,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,948,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,506,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Informimi dhe komunikimi,908,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,840,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Sherbimet administrative dhe mbeshtetese,855,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1083,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,731,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,162,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Aktivitetet e tjera sherbyese,709,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,223,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,634,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,616,UNRESOLVED: no authoritative codebook
+2023,primary_sector,"Artet, Argetimi dhe rekreacioni",613,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,455,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Arsimi,562,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,410,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Industria nxjerrese,560,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,668,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Aktivitetet financiare dhe te sigurimit,528,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,280,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Aktivitetet e patundshmerise,507,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,120,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,386,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,7,UNRESOLVED: no authoritative codebook
+2023,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",365,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,585,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Mungon aktiviteti,359,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2023.xlsx,915,UNRESOLVED: no authoritative codebook
+2023,primary_sector,Person Fizik,321,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2023.xlsx,1055,UNRESOLVED: no authoritative codebook
+2023,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",2,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,119,UNRESOLVED: no authoritative codebook
+2023,registration_status,SH.P.K.,6166,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,8,UNRESOLVED: no authoritative codebook
+2023,registration_status,Individual,5370,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,7,UNRESOLVED: no authoritative codebook
+2023,registration_status,Ortakëria e përgj.,1109,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,39,UNRESOLVED: no authoritative codebook
+2023,registration_status,Shoqëri akcionare,1091,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,90,UNRESOLVED: no authoritative codebook
+2023,registration_status,Kompani e huaj,761,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,29,UNRESOLVED: no authoritative codebook
+2023,registration_status,Ndërmarrje shoq.,450,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,30,UNRESOLVED: no authoritative codebook
+2023,registration_status,OJQ,375,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,11,UNRESOLVED: no authoritative codebook
+2023,registration_status,Person fizik,321,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1055,UNRESOLVED: no authoritative codebook
+2023,registration_status, Konsorcium,145,True,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,26,UNRESOLVED: no authoritative codebook
+2023,registration_status,Ndërmarrje pub.,84,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,152,UNRESOLVED: no authoritative codebook
+2023,registration_status,Kooperativa Bujq.,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,516,UNRESOLVED: no authoritative codebook
+2023,registration_status,Ndërmarrje nën menaxhim të AKP-së,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,286,UNRESOLVED: no authoritative codebook
+2023,registration_status,Projekt,55,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,32,UNRESOLVED: no authoritative codebook
+2023,registration_status,Dega e Shoqërisë së Huaj,49,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,800,UNRESOLVED: no authoritative codebook
+2023,registration_status, Përfaqësues Fiskal,48,True,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,27,UNRESOLVED: no authoritative codebook
+2023,registration_status,Tjeter,36,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2023.xlsx,379,UNRESOLVED: no authoritative codebook
+2023,registration_status,Organizata Buxhetore,35,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,893,UNRESOLVED: no authoritative codebook
+2023,registration_status,Shoqëri Komandite,21,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,806,UNRESOLVED: no authoritative codebook
+2023,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,514,UNRESOLVED: no authoritative codebook
+2023,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,463,UNRESOLVED: no authoritative codebook
+2023,registration_status,Zyra e Përfaqësisë në Kosovë,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,389,UNRESOLVED: no authoritative codebook
+2023,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,310,UNRESOLVED: no authoritative codebook
+2023,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,266,UNRESOLVED: no authoritative codebook
+2023,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,738,UNRESOLVED: no authoritative codebook
+2023,registration_status,Kooperativa,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,760,UNRESOLVED: no authoritative codebook
+2023,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1340,UNRESOLVED: no authoritative codebook
+2023,municipality,PRISHTINË,1525,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,26,UNRESOLVED: no authoritative codebook
+2023,municipality,PRIZREN,781,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,34,UNRESOLVED: no authoritative codebook
+2023,municipality,FERIZAJ,750,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,7,UNRESOLVED: no authoritative codebook
+2023,municipality,GJAKOVË,736,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,11,UNRESOLVED: no authoritative codebook
+2023,municipality,PEJË,728,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,23,UNRESOLVED: no authoritative codebook
+2023,municipality,MITROVICË,707,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,20,UNRESOLVED: no authoritative codebook
+2023,municipality,GJILAN,643,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,13,UNRESOLVED: no authoritative codebook
+2023,municipality,FUSHË KOSOVË,624,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,9,UNRESOLVED: no authoritative codebook
+2023,municipality,LIPJAN,569,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,74,UNRESOLVED: no authoritative codebook
+2023,municipality,SUHAREKË,564,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,35,UNRESOLVED: no authoritative codebook
+2023,municipality,GRAÇANICË,537,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,16,UNRESOLVED: no authoritative codebook
+2023,municipality,ISTOG,523,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,18,UNRESOLVED: no authoritative codebook
+2023,municipality,OBILIQ,489,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,21,UNRESOLVED: no authoritative codebook
+2023,municipality,VITI,473,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,37,UNRESOLVED: no authoritative codebook
+2023,municipality,PODUJEVË,471,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,25,UNRESOLVED: no authoritative codebook
+2023,municipality,VUSHTRRI,470,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,117,UNRESOLVED: no authoritative codebook
+2023,municipality,MALISHEVË,462,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,77,UNRESOLVED: no authoritative codebook
+2023,municipality,GLLOGOC,440,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,15,UNRESOLVED: no authoritative codebook
+2023,municipality,DEÇAN,440,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,38,UNRESOLVED: no authoritative codebook
+2023,municipality,KLINË,432,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,70,UNRESOLVED: no authoritative codebook
+2023,municipality,RAHOVEC,417,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,103,UNRESOLVED: no authoritative codebook
+2023,municipality,KAÇANIK,384,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,19,UNRESOLVED: no authoritative codebook
+2023,municipality,SHTIME,379,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,105,UNRESOLVED: no authoritative codebook
+2023,municipality,SKENDERAJ,356,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,110,UNRESOLVED: no authoritative codebook
+2023,municipality,KAMENICË,340,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,65,UNRESOLVED: no authoritative codebook
+2023,municipality,DRAGASH,324,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,41,UNRESOLVED: no authoritative codebook
+2023,municipality,HANI I ELEZIT,245,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,17,UNRESOLVED: no authoritative codebook
+2023,municipality,SHTËRPCË,228,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,107,UNRESOLVED: no authoritative codebook
+2023,municipality,MITROVICË VERIORE,218,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,84,UNRESOLVED: no authoritative codebook
+2023,municipality,LEPOSAVIQ,180,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,358,UNRESOLVED: no authoritative codebook
+2023,municipality,ZVEÇAN,167,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,323,UNRESOLVED: no authoritative codebook
+2023,municipality,KLLOKOT,166,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,72,UNRESOLVED: no authoritative codebook
+2023,municipality,ZUBIN POTOK,132,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,408,UNRESOLVED: no authoritative codebook
+2023,municipality,NOVOBËRDË,132,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,86,UNRESOLVED: no authoritative codebook
+2023,municipality,MAMUSHË,131,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,79,UNRESOLVED: no authoritative codebook
+2023,municipality,JUNIK,99,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,64,UNRESOLVED: no authoritative codebook
+2023,municipality,PARTESH,58,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,788,UNRESOLVED: no authoritative codebook
+2023,municipality,RANILLUG,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2023.xlsx,1343,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Industria perpunuese,1493,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,728,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1432,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1323,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Ndertimtaria,1329,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1021,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Mungon aktiviteti,1108,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2024.xlsx,929,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Transporti dhe magazinimi,1043,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1236,UNRESOLVED: no authoritative codebook
+2024,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1026,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,327,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,991,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,516,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Akomodimi dhe sherbimi ushqimor,965,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,39,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Informimi dhe komunikimi,908,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,852,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Sherbimet administrative dhe mbeshtetese,874,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1163,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,717,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,165,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Aktivitetet e tjera sherbyese,712,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,225,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,655,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,629,UNRESOLVED: no authoritative codebook
+2024,primary_sector,"Artet, Argetimi dhe rekreacioni",631,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,464,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Arsimi,611,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,414,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Aktivitetet e patundshmerise,544,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,121,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Industria nxjerrese,540,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,683,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Aktivitetet financiare dhe te sigurimit,517,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,285,UNRESOLVED: no authoritative codebook
+2024,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",393,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,597,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,377,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,7,UNRESOLVED: no authoritative codebook
+2024,primary_sector,Person Fizik,371,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2024.xlsx,1131,UNRESOLVED: no authoritative codebook
+2024,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,120,UNRESOLVED: no authoritative codebook
+2024,registration_status,SH.P.K.,6594,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,8,UNRESOLVED: no authoritative codebook
+2024,registration_status,Individual,5721,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,7,UNRESOLVED: no authoritative codebook
+2024,registration_status,Ortakëria e përgj.,1137,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,40,UNRESOLVED: no authoritative codebook
+2024,registration_status,Shoqëri akcionare,1099,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,131,UNRESOLVED: no authoritative codebook
+2024,registration_status,Kompani e huaj,777,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,30,UNRESOLVED: no authoritative codebook
+2024,registration_status,Ndërmarrje shoq.,521,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,31,UNRESOLVED: no authoritative codebook
+2024,registration_status,OJQ,372,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,11,UNRESOLVED: no authoritative codebook
+2024,registration_status,Person fizik,371,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1131,UNRESOLVED: no authoritative codebook
+2024,registration_status, Konsorcium,134,True,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,27,UNRESOLVED: no authoritative codebook
+2024,registration_status,Ndërmarrje pub.,86,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,155,UNRESOLVED: no authoritative codebook
+2024,registration_status,Kooperativa Bujq.,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,526,UNRESOLVED: no authoritative codebook
+2024,registration_status,Ndërmarrje nën menaxhim të AKP-së,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,291,UNRESOLVED: no authoritative codebook
+2024,registration_status,Projekt,55,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,33,UNRESOLVED: no authoritative codebook
+2024,registration_status,Dega e Shoqërisë së Huaj,53,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,334,UNRESOLVED: no authoritative codebook
+2024,registration_status, Përfaqësues Fiskal,41,True,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,28,UNRESOLVED: no authoritative codebook
+2024,registration_status,Organizata Buxhetore,36,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,905,UNRESOLVED: no authoritative codebook
+2024,registration_status,Shoqëri Komandite,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,820,UNRESOLVED: no authoritative codebook
+2024,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,270,UNRESOLVED: no authoritative codebook
+2024,registration_status,Zyrë ndërlidhëse,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,472,UNRESOLVED: no authoritative codebook
+2024,registration_status,Zyra e Përfaqësisë në Kosovë,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,392,UNRESOLVED: no authoritative codebook
+2024,registration_status,Tjeter,12,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2024.xlsx,382,UNRESOLVED: no authoritative codebook
+2024,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,314,UNRESOLVED: no authoritative codebook
+2024,registration_status,Kooperativa,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,775,UNRESOLVED: no authoritative codebook
+2024,registration_status,Ortakëri e kufizuar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,751,UNRESOLVED: no authoritative codebook
+2024,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,524,UNRESOLVED: no authoritative codebook
+2024,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1420,UNRESOLVED: no authoritative codebook
+2024,municipality,PRISHTINË,1547,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,27,UNRESOLVED: no authoritative codebook
+2024,municipality,PRIZREN,792,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,35,UNRESOLVED: no authoritative codebook
+2024,municipality,GJAKOVË,768,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,11,UNRESOLVED: no authoritative codebook
+2024,municipality,PEJË,768,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,23,UNRESOLVED: no authoritative codebook
+2024,municipality,MITROVICË,741,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,20,UNRESOLVED: no authoritative codebook
+2024,municipality,FERIZAJ,734,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,7,UNRESOLVED: no authoritative codebook
+2024,municipality,GJILAN,699,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,13,UNRESOLVED: no authoritative codebook
+2024,municipality,FUSHË KOSOVË,639,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,9,UNRESOLVED: no authoritative codebook
+2024,municipality,LIPJAN,601,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,75,UNRESOLVED: no authoritative codebook
+2024,municipality,SUHAREKË,584,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,36,UNRESOLVED: no authoritative codebook
+2024,municipality,VUSHTRRI,538,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,38,UNRESOLVED: no authoritative codebook
+2024,municipality,GRAÇANICË,535,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,16,UNRESOLVED: no authoritative codebook
+2024,municipality,ISTOG,528,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,18,UNRESOLVED: no authoritative codebook
+2024,municipality,PODUJEVË,523,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,25,UNRESOLVED: no authoritative codebook
+2024,municipality,OBILIQ,518,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,21,UNRESOLVED: no authoritative codebook
+2024,municipality,MALISHEVË,503,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,78,UNRESOLVED: no authoritative codebook
+2024,municipality,GLLOGOC,484,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,15,UNRESOLVED: no authoritative codebook
+2024,municipality,KLINË,480,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,71,UNRESOLVED: no authoritative codebook
+2024,municipality,VITI,474,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,116,UNRESOLVED: no authoritative codebook
+2024,municipality,DEÇAN,462,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,39,UNRESOLVED: no authoritative codebook
+2024,municipality,RAHOVEC,444,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,104,UNRESOLVED: no authoritative codebook
+2024,municipality,KAÇANIK,408,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,19,UNRESOLVED: no authoritative codebook
+2024,municipality,SHTIME,406,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,106,UNRESOLVED: no authoritative codebook
+2024,municipality,SKENDERAJ,405,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,111,UNRESOLVED: no authoritative codebook
+2024,municipality,KAMENICË,371,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,66,UNRESOLVED: no authoritative codebook
+2024,municipality,DRAGASH,333,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,42,UNRESOLVED: no authoritative codebook
+2024,municipality,HANI I ELEZIT,246,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,17,UNRESOLVED: no authoritative codebook
+2024,municipality,MITROVICË VERIORE,236,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,85,UNRESOLVED: no authoritative codebook
+2024,municipality,SHTËRPCË,230,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,108,UNRESOLVED: no authoritative codebook
+2024,municipality,LEPOSAVIQ,215,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,360,UNRESOLVED: no authoritative codebook
+2024,municipality,MAMUSHË,186,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,80,UNRESOLVED: no authoritative codebook
+2024,municipality,ZVEÇAN,176,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,326,UNRESOLVED: no authoritative codebook
+2024,municipality,KLLOKOT,168,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,73,UNRESOLVED: no authoritative codebook
+2024,municipality,ZUBIN POTOK,155,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,412,UNRESOLVED: no authoritative codebook
+2024,municipality,NOVOBËRDË,150,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,87,UNRESOLVED: no authoritative codebook
+2024,municipality,JUNIK,120,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,65,UNRESOLVED: no authoritative codebook
+2024,municipality,PARTESH,69,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,91,UNRESOLVED: no authoritative codebook
+2024,municipality,RANILLUG,13,False,observed category,No missing meaning identified; domain still unverified,Investimet-2024.xlsx,1423,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Industria perpunuese,1479,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,736,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,1464,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1321,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Ndertimtaria,1346,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1015,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Transporti dhe magazinimi,1076,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1232,UNRESOLVED: no authoritative codebook
+2025,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",1032,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,329,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,1012,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,518,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Akomodimi dhe sherbimi ushqimor,969,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,39,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Mungon aktiviteti,944,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2025.xlsx,937,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Informimi dhe komunikimi,921,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,861,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Sherbimet administrative dhe mbeshtetese,883,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1158,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Aktivitetet e tjera sherbyese,734,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,230,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,730,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,170,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,652,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,638,UNRESOLVED: no authoritative codebook
+2025,primary_sector,"Artet, Argetimi dhe rekreacioni",637,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,465,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Arsimi,628,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,413,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Aktivitetet e patundshmerise,586,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,121,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Industria nxjerrese,501,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,695,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Aktivitetet financiare dhe te sigurimit,475,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,290,UNRESOLVED: no authoritative codebook
+2025,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",399,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,604,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,384,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,7,UNRESOLVED: no authoritative codebook
+2025,primary_sector,Person Fizik,341,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2025.xlsx,1127,UNRESOLVED: no authoritative codebook
+2025,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",21,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,120,UNRESOLVED: no authoritative codebook
+2025,registration_status,SH.P.K.,6666,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,8,UNRESOLVED: no authoritative codebook
+2025,registration_status,Individual,5739,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,7,UNRESOLVED: no authoritative codebook
+2025,registration_status,Ortakëria e përgj.,1103,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,40,UNRESOLVED: no authoritative codebook
+2025,registration_status,Shoqëri akcionare,1085,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,132,UNRESOLVED: no authoritative codebook
+2025,registration_status,Kompani e huaj,771,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,29,UNRESOLVED: no authoritative codebook
+2025,registration_status,Ndërmarrje shoq.,486,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,30,UNRESOLVED: no authoritative codebook
+2025,registration_status,OJQ,372,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,12,UNRESOLVED: no authoritative codebook
+2025,registration_status,Person fizik,341,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1127,UNRESOLVED: no authoritative codebook
+2025,registration_status, Konsorcium,120,True,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,27,UNRESOLVED: no authoritative codebook
+2025,registration_status,Ndërmarrje pub.,98,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,156,UNRESOLVED: no authoritative codebook
+2025,registration_status,Dega e Shoqërisë së Huaj,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,336,UNRESOLVED: no authoritative codebook
+2025,registration_status,Ndërmarrje nën menaxhim të AKP-së,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,296,UNRESOLVED: no authoritative codebook
+2025,registration_status,Kooperativa Bujq.,52,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,529,UNRESOLVED: no authoritative codebook
+2025,registration_status,Projekt,48,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,32,UNRESOLVED: no authoritative codebook
+2025,registration_status, Përfaqësues Fiskal,41,True,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,384,UNRESOLVED: no authoritative codebook
+2025,registration_status,Organizata Buxhetore,36,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,913,UNRESOLVED: no authoritative codebook
+2025,registration_status,Shoqëri Komandite,24,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,830,UNRESOLVED: no authoritative codebook
+2025,registration_status,Ortakëri e kufizuar,17,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,759,UNRESOLVED: no authoritative codebook
+2025,registration_status, Bashkësi Fetare,12,True,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,274,UNRESOLVED: no authoritative codebook
+2025,registration_status,Zyra e Përfaqësisë në Kosovë,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,391,UNRESOLVED: no authoritative codebook
+2025,registration_status,Tjeter,12,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2025.xlsx,383,UNRESOLVED: no authoritative codebook
+2025,registration_status,Kompani sigurimi,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,317,UNRESOLVED: no authoritative codebook
+2025,registration_status,Kooperativa,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,783,UNRESOLVED: no authoritative codebook
+2025,registration_status,Agjension i Huaj Qeveritar,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,527,UNRESOLVED: no authoritative codebook
+2025,registration_status,Komp .pub. e kuf.,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,1416,UNRESOLVED: no authoritative codebook
+2025,registration_status,Zyrë ndërlidhëse,11,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,473,UNRESOLVED: no authoritative codebook
+2025,municipality,PRISHTINË,1513,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,27,UNRESOLVED: no authoritative codebook
+2025,municipality,PRIZREN,788,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,34,UNRESOLVED: no authoritative codebook
+2025,municipality,PEJË,771,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,23,UNRESOLVED: no authoritative codebook
+2025,municipality,GJAKOVË,767,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,11,UNRESOLVED: no authoritative codebook
+2025,municipality,FERIZAJ,746,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,7,UNRESOLVED: no authoritative codebook
+2025,municipality,MITROVICË,720,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,20,UNRESOLVED: no authoritative codebook
+2025,municipality,GJILAN,663,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,14,UNRESOLVED: no authoritative codebook
+2025,municipality,FUSHË KOSOVË,630,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,9,UNRESOLVED: no authoritative codebook
+2025,municipality,SUHAREKË,609,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,36,UNRESOLVED: no authoritative codebook
+2025,municipality,ISTOG,565,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,18,UNRESOLVED: no authoritative codebook
+2025,municipality,LIPJAN,554,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,76,UNRESOLVED: no authoritative codebook
+2025,municipality,VUSHTRRI,547,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,38,UNRESOLVED: no authoritative codebook
+2025,municipality,PODUJEVË,540,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,25,UNRESOLVED: no authoritative codebook
+2025,municipality,OBILIQ,527,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,21,UNRESOLVED: no authoritative codebook
+2025,municipality,GRAÇANICË,506,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,16,UNRESOLVED: no authoritative codebook
+2025,municipality,MALISHEVË,495,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,79,UNRESOLVED: no authoritative codebook
+2025,municipality,KLINË,487,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,71,UNRESOLVED: no authoritative codebook
+2025,municipality,VITI,470,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,116,UNRESOLVED: no authoritative codebook
+2025,municipality,GLLOGOC,454,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,55,UNRESOLVED: no authoritative codebook
+2025,municipality,DEÇAN,449,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,39,UNRESOLVED: no authoritative codebook
+2025,municipality,RAHOVEC,444,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,104,UNRESOLVED: no authoritative codebook
+2025,municipality,SHTIME,425,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,106,UNRESOLVED: no authoritative codebook
+2025,municipality,SKENDERAJ,422,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,111,UNRESOLVED: no authoritative codebook
+2025,municipality,KAMENICË,416,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,66,UNRESOLVED: no authoritative codebook
+2025,municipality,KAÇANIK,392,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,19,UNRESOLVED: no authoritative codebook
+2025,municipality,DRAGASH,309,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,42,UNRESOLVED: no authoritative codebook
+2025,municipality,HANI I ELEZIT,257,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,17,UNRESOLVED: no authoritative codebook
+2025,municipality,SHTËRPCË,245,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,108,UNRESOLVED: no authoritative codebook
+2025,municipality,MITROVICË VERIORE,238,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,86,UNRESOLVED: no authoritative codebook
+2025,municipality,LEPOSAVIQ,206,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,75,UNRESOLVED: no authoritative codebook
+2025,municipality,ZVEÇAN,180,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,412,UNRESOLVED: no authoritative codebook
+2025,municipality,KLLOKOT,171,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,73,UNRESOLVED: no authoritative codebook
+2025,municipality,NOVOBËRDË,168,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,88,UNRESOLVED: no authoritative codebook
+2025,municipality,MAMUSHË,156,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,81,UNRESOLVED: no authoritative codebook
+2025,municipality,ZUBIN POTOK,148,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,411,UNRESOLVED: no authoritative codebook
+2025,municipality,JUNIK,140,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,65,UNRESOLVED: no authoritative codebook
+2025,municipality,PARTESH,60,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,813,UNRESOLVED: no authoritative codebook
+2025,municipality,RANILLUG,36,False,observed category,No missing meaning identified; domain still unverified,Investimet-2025.xlsx,996,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Industria perpunuese,727,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,743,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,723,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1332,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Ndertimtaria,658,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1031,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Transporti dhe magazinimi,535,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1243,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Mungon aktiviteti,533,False,domain-specific unavailable,Sector unavailable/unclassified,Investimet-2026.xlsx,942,UNRESOLVED: no authoritative codebook
+2026,primary_sector,"Aktivitetet profesionale, shkencore dhe teknike",519,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,336,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Bujqesia;Pylltaria dhe Peshkimi,510,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,530,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Akomodimi dhe sherbimi ushqimor,481,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,39,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Informimi dhe komunikimi,459,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,865,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Sherbimet administrative dhe mbeshtetese,445,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1169,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Aktivitetet e tjera sherbyese,372,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,232,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Aktivitetet e shendetit te njeriut dhe te punes sociale,365,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,171,UNRESOLVED: no authoritative codebook
+2026,primary_sector,"Artet, Argetimi dhe rekreacioni",322,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,476,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Arsimi,313,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,423,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Aktivitetet e patundshmerise,309,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,121,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,306,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,649,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Aktivitetet financiare dhe te sigurimit,264,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,294,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Industria nxjerrese,244,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,702,UNRESOLVED: no authoritative codebook
+2026,primary_sector,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",195,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,615,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,183,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,7,UNRESOLVED: no authoritative codebook
+2026,primary_sector,Person Fizik,142,False,ambiguous category,Person/legal-type label in sector field; codebook needed,Investimet-2026.xlsx,1143,UNRESOLVED: no authoritative codebook
+2026,primary_sector,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",10,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,119,UNRESOLVED: no authoritative codebook
+2026,registration_status,SH.P.K.,3377,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,8,UNRESOLVED: no authoritative codebook
+2026,registration_status,Individual,2906,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,7,UNRESOLVED: no authoritative codebook
+2026,registration_status,Shoqëri akcionare,538,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,132,UNRESOLVED: no authoritative codebook
+2026,registration_status,Ortakëria e përgj.,526,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,40,UNRESOLVED: no authoritative codebook
+2026,registration_status,Kompani e huaj,375,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,29,UNRESOLVED: no authoritative codebook
+2026,registration_status,Ndërmarrje shoq.,252,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,30,UNRESOLVED: no authoritative codebook
+2026,registration_status,OJQ,181,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,12,UNRESOLVED: no authoritative codebook
+2026,registration_status,Person fizik,142,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1143,UNRESOLVED: no authoritative codebook
+2026,registration_status, Konsorcium,58,True,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,27,UNRESOLVED: no authoritative codebook
+2026,registration_status,Ndërmarrje pub.,46,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,157,UNRESOLVED: no authoritative codebook
+2026,registration_status,Ndërmarrje nën menaxhim të AKP-së,30,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,300,UNRESOLVED: no authoritative codebook
+2026,registration_status, Përfaqësues Fiskal,29,True,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,393,UNRESOLVED: no authoritative codebook
+2026,registration_status,Dega e Shoqërisë së Huaj,28,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,343,UNRESOLVED: no authoritative codebook
+2026,registration_status,Kooperativa Bujq.,26,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,579,UNRESOLVED: no authoritative codebook
+2026,registration_status,Projekt,16,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,32,UNRESOLVED: no authoritative codebook
+2026,registration_status,Organizata Buxhetore,16,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,917,UNRESOLVED: no authoritative codebook
+2026,registration_status,Shoqëri Komandite,12,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,835,UNRESOLVED: no authoritative codebook
+2026,registration_status,Ortakëri e kufizuar,11,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,766,UNRESOLVED: no authoritative codebook
+2026,registration_status,Zyrë ndërlidhëse,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,483,UNRESOLVED: no authoritative codebook
+2026,registration_status,Zyra e Përfaqësisë në Kosovë,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,400,UNRESOLVED: no authoritative codebook
+2026,registration_status,Tjeter,6,False,catch-all category,Other legal form; not evidence of missing information,Investimet-2026.xlsx,392,UNRESOLVED: no authoritative codebook
+2026,registration_status,Kompani sigurimi,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,324,UNRESOLVED: no authoritative codebook
+2026,registration_status, Bashkësi Fetare,6,True,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,278,UNRESOLVED: no authoritative codebook
+2026,registration_status,Kooperativa,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,789,UNRESOLVED: no authoritative codebook
+2026,registration_status,Komp .pub. e kuf.,6,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1428,UNRESOLVED: no authoritative codebook
+2026,registration_status,Agjension i Huaj Qeveritar,4,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,539,UNRESOLVED: no authoritative codebook
+2026,municipality,PRISHTINË,763,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,27,UNRESOLVED: no authoritative codebook
+2026,municipality,PRIZREN,391,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,34,UNRESOLVED: no authoritative codebook
+2026,municipality,PEJË,388,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,23,UNRESOLVED: no authoritative codebook
+2026,municipality,GJAKOVË,374,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,11,UNRESOLVED: no authoritative codebook
+2026,municipality,FERIZAJ,370,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,7,UNRESOLVED: no authoritative codebook
+2026,municipality,MITROVICË,360,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,20,UNRESOLVED: no authoritative codebook
+2026,municipality,GJILAN,328,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,14,UNRESOLVED: no authoritative codebook
+2026,municipality,FUSHË KOSOVË,315,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,9,UNRESOLVED: no authoritative codebook
+2026,municipality,SUHAREKË,298,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,36,UNRESOLVED: no authoritative codebook
+2026,municipality,ISTOG,285,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,18,UNRESOLVED: no authoritative codebook
+2026,municipality,LIPJAN,275,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,76,UNRESOLVED: no authoritative codebook
+2026,municipality,OBILIQ,270,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,21,UNRESOLVED: no authoritative codebook
+2026,municipality,VUSHTRRI,268,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,38,UNRESOLVED: no authoritative codebook
+2026,municipality,PODUJEVË,268,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,25,UNRESOLVED: no authoritative codebook
+2026,municipality,GRAÇANICË,259,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,16,UNRESOLVED: no authoritative codebook
+2026,municipality,KLINË,250,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,70,UNRESOLVED: no authoritative codebook
+2026,municipality,MALISHEVË,240,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,79,UNRESOLVED: no authoritative codebook
+2026,municipality,VITI,232,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,115,UNRESOLVED: no authoritative codebook
+2026,municipality,DEÇAN,229,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,39,UNRESOLVED: no authoritative codebook
+2026,municipality,RAHOVEC,224,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,104,UNRESOLVED: no authoritative codebook
+2026,municipality,GLLOGOC,222,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,54,UNRESOLVED: no authoritative codebook
+2026,municipality,SKENDERAJ,220,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,111,UNRESOLVED: no authoritative codebook
+2026,municipality,KAÇANIK,215,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,19,UNRESOLVED: no authoritative codebook
+2026,municipality,KAMENICË,209,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,65,UNRESOLVED: no authoritative codebook
+2026,municipality,SHTIME,205,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,106,UNRESOLVED: no authoritative codebook
+2026,municipality,DRAGASH,153,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,42,UNRESOLVED: no authoritative codebook
+2026,municipality,HANI I ELEZIT,126,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,17,UNRESOLVED: no authoritative codebook
+2026,municipality,MITROVICË VERIORE,126,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,86,UNRESOLVED: no authoritative codebook
+2026,municipality,SHTËRPCË,114,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,108,UNRESOLVED: no authoritative codebook
+2026,municipality,LEPOSAVIQ,110,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,74,UNRESOLVED: no authoritative codebook
+2026,municipality,NOVOBËRDË,94,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,88,UNRESOLVED: no authoritative codebook
+2026,municipality,ZVEÇAN,89,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,421,UNRESOLVED: no authoritative codebook
+2026,municipality,KLLOKOT,80,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,72,UNRESOLVED: no authoritative codebook
+2026,municipality,MAMUSHË,79,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,81,UNRESOLVED: no authoritative codebook
+2026,municipality,JUNIK,73,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,64,UNRESOLVED: no authoritative codebook
+2026,municipality,ZUBIN POTOK,65,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,420,UNRESOLVED: no authoritative codebook
+2026,municipality,PARTESH,32,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,818,UNRESOLVED: no authoritative codebook
+2026,municipality,RANILLUG,16,False,observed category,No missing meaning identified; domain still unverified,Investimet-2026.xlsx,1011,UNRESOLVED: no authoritative codebook

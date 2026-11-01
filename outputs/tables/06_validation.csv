@@ -1,0 +1,20 @@
+﻿check,status
+Eight source files and unchanged raw hashes,PASS
+Common schema and dtypes,PASS
+2019-2025 full months; 2026 Jan-Jun only,PASS
+"Integration: source rows, provenance and all numeric values preserved",PASS
+Cleaning: only allowed edge whitespace changed,PASS
+"No headers, metadata or report totals included",PASS
+"Independent physical-cell audit: row partition, all values and unclassified flags",PASS
+"Cleaning audit, review flags and idempotence",PASS
+Missingness assessed; no unsupported imputation,PASS
+"Encoded missing sectors retained and flagged: 4,484 (3.6085%)",PASS
+48 individual financial measure/year sums preserved,PASS
+"Saved baseline: records, schema, values, cleaning and missingness",REVIEW
+Final dataset CSV round-trip,PASS
+Category domains/codebooks,REVIEW/UNRESOLVED
+"Currency, units and VAT-category overlap",REVIEW/UNRESOLVED
+Taxpayer counting and candidate aggregate grain,REVIEW/UNRESOLVED
+Negative adjustments and statistical extremes,REVIEW/UNRESOLVED
+"Source revisions, applicability and suppression",REVIEW/UNRESOLVED
+Unavailable sectors: retain unclassified bucket and disclose analysis denominator,REVIEW/UNRESOLVED

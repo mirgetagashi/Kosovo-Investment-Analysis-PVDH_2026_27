@@ -1,0 +1,13 @@
+﻿attribute,scale,values,example_pandas_dtype,units
+year,interval,discrete,int64,calendar/category
+month,ordinal/cyclic,discrete,int64,calendar/category
+primary_sector,nominal,discrete,object,calendar/category
+registration_status,nominal,discrete,object,calendar/category
+municipality,nominal,discrete,object,calendar/category
+taxpayer_count,ratio,discrete,int64,taxpayers in aggregate
+investment_purchases_imports_without_vat,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale
+investment_purchases_imports_nondeductible_vat,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale
+investment_imports_18pct,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale
+investment_imports_8pct,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale
+domestic_investment_purchases_18pct,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale
+domestic_investment_purchases_8pct,ratio,continuous (finite precision),float64,Unconfirmed monetary unit/scale

@@ -1,0 +1,169 @@
+﻿window,measure,primary_sector,sector_eligible,status,baseline_2019_monthly,months_observed,trough_year,trough_month,trough_rolling_3m,drop_pct,recovered,recovery_months,recovery_year,recovery_month
+reported,investment_purchases_imports_without_vat,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,10673.066666666668,90,2020.0,11.0,2483.9266666666667,-76.72715120927444,True,10.0,2021.0,1.0
+reported,investment_purchases_imports_nondeductible_vat,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,1264.7016666666666,90,2020.0,5.0,0.0,-100.0,True,7.0,2020.0,10.0
+reported,investment_imports_18pct,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,5640.685833333333,90,2021.0,1.0,0.0,-100.0,True,11.0,2021.0,2.0
+reported,investment_imports_8pct,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,33.07,90,2020.0,6.0,0.0,-100.0,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_18pct,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,64244.93250000002,90,2020.0,5.0,24188.696666666667,-62.34925351245928,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,361.3858333333333,90,2020.0,5.0,0.0,-100.0,True,4.0,2020.0,7.0
+reported,total_investment,Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,True,valid,82217.8425,90,2020.0,5.0,38740.38,-52.880811728913955,True,4.0,2020.0,7.0
+reported,investment_purchases_imports_without_vat,Akomodimi dhe sherbimi ushqimor,True,valid,546814.965,90,2020.0,5.0,43874.050000000076,-91.9764357583008,True,28.0,2022.0,7.0
+reported,investment_purchases_imports_nondeductible_vat,Akomodimi dhe sherbimi ushqimor,True,valid,315452.55,90,2020.0,5.0,38852.10666666667,-87.6836923123092,True,25.0,2022.0,4.0
+reported,investment_imports_18pct,Akomodimi dhe sherbimi ushqimor,True,valid,291800.3725,90,2020.0,10.0,55291.073333333334,-81.05174682964693,True,23.0,2022.0,2.0
+reported,investment_imports_8pct,Akomodimi dhe sherbimi ushqimor,True,valid,3442.3466666666664,90,2020.0,8.0,861.0799999999999,-74.98566869112544,True,12.0,2021.0,3.0
+reported,domestic_investment_purchases_18pct,Akomodimi dhe sherbimi ushqimor,True,valid,1579621.0433333332,90,2020.0,5.0,950642.8033333333,-39.81829962664484,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,Akomodimi dhe sherbimi ushqimor,True,valid,18250.656666666666,90,2020.0,12.0,8149.37,-55.34752448176749,True,17.0,2021.0,8.0
+reported,total_investment,Akomodimi dhe sherbimi ushqimor,True,valid,2755381.9341666666,90,2020.0,5.0,1229983.9566666668,-55.360672819441234,True,17.0,2021.0,8.0
+reported,investment_purchases_imports_without_vat,Aktivitetet e patundshmerise,True,valid,91033.47499999999,90,2020.0,5.0,6900.286666666667,-92.4200557359074,True,6.0,2020.0,9.0
+reported,investment_purchases_imports_nondeductible_vat,Aktivitetet e patundshmerise,True,valid,22879.890000000003,90,2020.0,5.0,11338.029999999999,-50.44543483382134,True,4.0,2020.0,7.0
+reported,investment_imports_18pct,Aktivitetet e patundshmerise,True,valid,39722.65666666667,90,2020.0,5.0,1944.1299999999999,-95.10574024211371,True,19.0,2021.0,10.0
+reported,investment_imports_8pct,Aktivitetet e patundshmerise,True,valid,31.4575,90,2020.0,5.0,0.0,-100.0,True,34.0,2023.0,1.0
+reported,domestic_investment_purchases_18pct,Aktivitetet e patundshmerise,True,valid,1056121.8858333332,90,2020.0,6.0,378452.5266666666,-64.16582860906736,True,9.0,2020.0,12.0
+reported,domestic_investment_purchases_8pct,Aktivitetet e patundshmerise,True,no_decline,515.6408333333334,90,2020.0,5.0,1547.17,200.04799852610583,True,0.0,,
+reported,total_investment,Aktivitetet e patundshmerise,True,valid,1210305.0058333334,90,2020.0,5.0,402033.13000000006,-66.78249465528836,True,8.0,2020.0,11.0
+reported,investment_purchases_imports_without_vat,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,299245.32,90,2020.0,5.0,18020.289999999997,-93.97808794470035,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,258466.67916666667,90,2020.0,5.0,140146.00999999998,-45.777919826319334,True,4.0,2020.0,7.0
+reported,investment_imports_18pct,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,9411.7875,90,2021.0,2.0,0.0,-100.0,True,14.0,2021.0,5.0
+reported,investment_imports_8pct,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,7276.688333333333,90,2020.0,12.0,0.0,-100.0,True,20.0,2021.0,11.0
+reported,domestic_investment_purchases_18pct,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,40944.73166666667,90,2020.0,8.0,23648.17333333333,-42.243672456191874,True,6.0,2020.0,9.0
+reported,domestic_investment_purchases_8pct,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,12219.286666666667,90,2020.0,10.0,5574.913333333333,-54.37611469954875,True,13.0,2021.0,4.0
+reported,total_investment,Aktivitetet e shendetit te njeriut dhe te punes sociale,True,valid,627564.4933333333,90,2020.0,6.0,290785.20333333337,-53.66449083363267,True,8.0,2020.0,11.0
+reported,investment_purchases_imports_without_vat,Aktivitetet e tjera sherbyese,True,valid,33373.56333333333,90,2020.0,9.0,9737.5,-70.82271406639326,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Aktivitetet e tjera sherbyese,True,valid,222723.12583333332,90,2021.0,1.0,14584.783333333333,-93.45160800937784,True,57.0,2024.0,12.0
+reported,investment_imports_18pct,Aktivitetet e tjera sherbyese,True,valid,12974.945833333333,90,2020.0,6.0,1182.53,-90.88605058402621,True,6.0,2020.0,9.0
+reported,investment_imports_8pct,Aktivitetet e tjera sherbyese,True,valid,4396.3725,90,2020.0,6.0,0.0,-100.0,True,32.0,2022.0,11.0
+reported,domestic_investment_purchases_18pct,Aktivitetet e tjera sherbyese,True,valid,58299.059166666666,90,2021.0,2.0,47155.57666666666,-19.114343626271513,True,12.0,2021.0,3.0
+reported,domestic_investment_purchases_8pct,Aktivitetet e tjera sherbyese,True,valid,4245.5275,90,2020.0,5.0,49.69666666666666,-98.82943481895555,True,9.0,2020.0,12.0
+reported,total_investment,Aktivitetet e tjera sherbyese,True,valid,336012.5941666667,90,2020.0,6.0,132099.20666666667,-60.68623350434784,True,18.0,2021.0,9.0
+reported,investment_purchases_imports_without_vat,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,investment_purchases_imports_nondeductible_vat,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,investment_imports_18pct,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,investment_imports_8pct,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,domestic_investment_purchases_18pct,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,domestic_investment_purchases_8pct,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,total_investment,Aktivitetet e trupave dhe organizatave nderkombetare,True,no_positive_2019_baseline,0.0,18,,,,,,,,
+reported,investment_purchases_imports_without_vat,Aktivitetet financiare dhe te sigurimit,True,valid,190549.86,90,2020.0,9.0,22166.103333333333,-88.36729487319836,True,10.0,2021.0,1.0
+reported,investment_purchases_imports_nondeductible_vat,Aktivitetet financiare dhe te sigurimit,True,valid,731943.4775,90,2020.0,9.0,318490.47333333344,-56.487012573544874,True,29.0,2022.0,8.0
+reported,investment_imports_18pct,Aktivitetet financiare dhe te sigurimit,True,valid,18851.857500000002,90,2020.0,5.0,0.0,-100.0,True,23.0,2022.0,2.0
+reported,investment_imports_8pct,Aktivitetet financiare dhe te sigurimit,True,valid,3959.266666666667,90,2020.0,5.0,0.0,-100.0,True,23.0,2022.0,2.0
+reported,domestic_investment_purchases_18pct,Aktivitetet financiare dhe te sigurimit,True,valid,125548.32083333335,90,2020.0,5.0,72979.32,-41.87152841583538,True,7.0,2020.0,10.0
+reported,domestic_investment_purchases_8pct,Aktivitetet financiare dhe te sigurimit,True,valid,9561.984166666665,90,2020.0,8.0,3552.4966666666664,-62.847703941502374,True,26.0,2022.0,5.0
+reported,total_investment,Aktivitetet financiare dhe te sigurimit,True,valid,1080414.7666666668,90,2020.0,9.0,434805.7333333334,-59.755665439967,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_without_vat,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,245408.80666666664,90,2020.0,5.0,136203.20000000004,-44.499465259614,True,5.0,2020.0,8.0
+reported,investment_purchases_imports_nondeductible_vat,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,210467.14333333334,90,2020.0,5.0,93115.14333333333,-55.75787181856715,True,5.0,2020.0,8.0
+reported,investment_imports_18pct,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,108866.93666666666,90,2020.0,9.0,64456.47000000002,-40.79334647087982,True,8.0,2020.0,11.0
+reported,investment_imports_8pct,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,1317.5608333333332,90,2020.0,5.0,965.4633333333335,-26.723434022337976,True,3.0,2020.0,6.0
+reported,domestic_investment_purchases_18pct,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,464629.2225,90,2020.0,5.0,242017.24,-47.91174806057318,True,3.0,2020.0,6.0
+reported,domestic_investment_purchases_8pct,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,21953.88416666667,90,2020.0,8.0,20061.50666666666,-8.619784479291692,True,6.0,2020.0,9.0
+reported,total_investment,"Aktivitetet profesionale, shkencore dhe teknike",True,valid,1052643.5541666667,90,2020.0,5.0,587169.3166666665,-44.2195495006376,True,3.0,2020.0,6.0
+reported,investment_purchases_imports_without_vat,Arsimi,True,valid,57377.65833333333,90,2020.0,5.0,24652.683333333334,-57.03435091387923,True,8.0,2020.0,11.0
+reported,investment_purchases_imports_nondeductible_vat,Arsimi,True,valid,169395.21166666667,90,2020.0,7.0,33854.67333333334,-80.01438588479581,True,7.0,2020.0,10.0
+reported,investment_imports_18pct,Arsimi,True,valid,15990.591666666667,90,2020.0,7.0,3340.126666666667,-79.11192571048288,True,13.0,2021.0,4.0
+reported,investment_imports_8pct,Arsimi,True,valid,244.4825,90,2020.0,9.0,0.0,-100.0,True,50.0,2024.0,5.0
+reported,domestic_investment_purchases_18pct,Arsimi,True,valid,129210.05083333334,90,2020.0,5.0,7910.13,-93.87808460024274,True,63.0,2025.0,6.0
+reported,domestic_investment_purchases_8pct,Arsimi,True,valid,1157.0308333333335,90,2020.0,6.0,5.5566666666666675,-99.51974774512635,True,23.0,2022.0,2.0
+reported,total_investment,Arsimi,True,valid,373375.0258333334,90,2020.0,5.0,98718.52666666667,-73.5604901676706,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_without_vat,"Artet, Argetimi dhe rekreacioni",True,valid,106385.53916666668,90,2020.0,5.0,4398.500000000039,-95.86550950960617,True,24.0,2022.0,3.0
+reported,investment_purchases_imports_nondeductible_vat,"Artet, Argetimi dhe rekreacioni",True,valid,41255.97833333333,90,2021.0,2.0,37343.659999999996,-9.48303371143746,True,14.0,2021.0,5.0
+reported,investment_imports_18pct,"Artet, Argetimi dhe rekreacioni",True,valid,81886.45083333332,90,2021.0,2.0,38137.42,-53.42645869751692,True,19.0,2021.0,10.0
+reported,investment_imports_8pct,"Artet, Argetimi dhe rekreacioni",True,valid,622.4916666666667,90,2020.0,5.0,0.0,-100.0,True,33.0,2022.0,12.0
+reported,domestic_investment_purchases_18pct,"Artet, Argetimi dhe rekreacioni",True,no_decline,84481.31833333331,90,2020.0,6.0,104336.08666666667,23.501963185509812,True,0.0,,
+reported,domestic_investment_purchases_8pct,"Artet, Argetimi dhe rekreacioni",True,valid,1090.9241666666665,90,2020.0,5.0,0.0,-100.0,True,3.0,2020.0,6.0
+reported,total_investment,"Artet, Argetimi dhe rekreacioni",True,valid,315722.70249999996,90,2020.0,10.0,228882.79666666655,-27.505119253606235,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_without_vat,Bujqesia;Pylltaria dhe Peshkimi,True,valid,474729.80750000005,90,2020.0,5.0,215256.28000000003,-54.65709618412785,True,6.0,2020.0,9.0
+reported,investment_purchases_imports_nondeductible_vat,Bujqesia;Pylltaria dhe Peshkimi,True,valid,15009.919166666665,90,2020.0,6.0,7085.576666666667,-52.794038475556974,True,7.0,2020.0,10.0
+reported,investment_imports_18pct,Bujqesia;Pylltaria dhe Peshkimi,True,valid,123309.23249999998,90,2021.0,1.0,31961.679999999997,-74.08005925265977,True,13.0,2021.0,4.0
+reported,investment_imports_8pct,Bujqesia;Pylltaria dhe Peshkimi,True,valid,2280.9016666666666,90,2020.0,10.0,0.0,-100.0,True,24.0,2022.0,3.0
+reported,domestic_investment_purchases_18pct,Bujqesia;Pylltaria dhe Peshkimi,True,valid,327401.37333333335,90,2020.0,6.0,263292.94666666666,-19.580988929266564,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,Bujqesia;Pylltaria dhe Peshkimi,True,valid,10003.739166666666,90,2020.0,10.0,1037.8533333333307,-89.62534592273708,True,25.0,2022.0,4.0
+reported,total_investment,Bujqesia;Pylltaria dhe Peshkimi,True,valid,952734.9733333335,90,2020.0,5.0,581230.2533333333,-38.99350085787412,True,6.0,2020.0,9.0
+reported,investment_purchases_imports_without_vat,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,valid,2607881.9575,90,2020.0,5.0,56870.19666666666,-97.81929559721391,True,7.0,2020.0,10.0
+reported,investment_purchases_imports_nondeductible_vat,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,no_decline,37974.77166666667,90,2020.0,5.0,54480.656666666655,43.465396302799775,True,0.0,,
+reported,investment_imports_18pct,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,valid,178923.6108333333,90,2020.0,6.0,1738.2866666667053,-99.02847552730985,True,11.0,2021.0,2.0
+reported,investment_imports_8pct,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,valid,35821.00916666666,90,2020.0,8.0,0.0,-100.0,True,14.0,2021.0,5.0
+reported,domestic_investment_purchases_18pct,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,no_decline,1445321.5258333336,90,2020.0,5.0,2013109.8266666664,39.28456683753889,True,0.0,,
+reported,domestic_investment_purchases_8pct,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,valid,33435.56833333333,90,2021.0,2.0,9129.31000000001,-72.69581330580041,True,17.0,2021.0,8.0
+reported,total_investment,"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",True,valid,4339358.443333332,90,2020.0,5.0,2144261.43,-50.5857499904327,True,3.0,2020.0,6.0
+reported,investment_purchases_imports_without_vat,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,939956.4183333336,90,2020.0,7.0,20296.09,-97.84074137862821,True,42.0,2023.0,9.0
+reported,investment_purchases_imports_nondeductible_vat,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,no_decline,3961.976666666666,90,2020.0,11.0,8320.416666666666,110.0067054071495,True,0.0,,
+reported,investment_imports_18pct,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,89645.07500000001,90,2020.0,9.0,21328.86,-76.20743805501864,True,9.0,2020.0,12.0
+reported,investment_imports_8pct,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,136.99166666666667,90,2020.0,7.0,0.0,-100.0,True,11.0,2021.0,2.0
+reported,domestic_investment_purchases_18pct,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,396673.22583333333,90,2020.0,10.0,202206.38666666663,-49.02444291724748,True,16.0,2021.0,7.0
+reported,domestic_investment_purchases_8pct,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,11245.766666666668,90,2020.0,5.0,826.7000000000024,-92.64878932220418,True,5.0,2020.0,8.0
+reported,total_investment,Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,True,valid,1441619.4541666666,90,2020.0,10.0,397873.9966666666,-72.40089986877575,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_without_vat,Industria nxjerrese,True,valid,207503.3916666667,90,2020.0,6.0,29974.043333333335,-85.55491402208808,True,5.0,2020.0,8.0
+reported,investment_purchases_imports_nondeductible_vat,Industria nxjerrese,True,valid,28537.47333333333,90,2020.0,10.0,23577.083333333332,-17.38202237479095,True,8.0,2020.0,11.0
+reported,investment_imports_18pct,Industria nxjerrese,True,valid,209151.89500000002,90,2020.0,10.0,173327.2766666666,-17.12851721153824,True,9.0,2020.0,12.0
+reported,investment_imports_8pct,Industria nxjerrese,True,valid,329.0183333333334,90,2020.0,5.0,0.0,-100.0,True,9.0,2020.0,12.0
+reported,domestic_investment_purchases_18pct,Industria nxjerrese,True,valid,410545.8741666667,90,2020.0,6.0,267621.01333333325,-34.81337161734845,True,6.0,2020.0,9.0
+reported,domestic_investment_purchases_8pct,Industria nxjerrese,True,valid,814.2141666666666,90,2020.0,7.0,0.0,-100.0,True,10.0,2021.0,1.0
+reported,total_investment,Industria nxjerrese,True,valid,856881.8666666667,90,2020.0,5.0,645083.9033333333,-24.717288528609316,True,5.0,2020.0,8.0
+reported,investment_purchases_imports_without_vat,Industria perpunuese,True,valid,5256740.944999999,90,2020.0,6.0,3655715.5400000005,-30.45661602409435,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Industria perpunuese,True,valid,377583.7216666667,90,2020.0,5.0,208263.33000000005,-44.84313860758642,True,8.0,2020.0,11.0
+reported,investment_imports_18pct,Industria perpunuese,True,valid,1743271.6766666668,90,2020.0,6.0,1202063.5966666667,-31.04553852643619,True,13.0,2021.0,4.0
+reported,investment_imports_8pct,Industria perpunuese,True,valid,10311.835000000001,90,2020.0,6.0,5014.613333333335,-51.370310586492764,True,5.0,2020.0,8.0
+reported,domestic_investment_purchases_18pct,Industria perpunuese,True,valid,3346192.436666667,90,2020.0,6.0,2777123.2833333337,-17.006468220345848,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,Industria perpunuese,True,valid,49236.48666666667,90,2020.0,5.0,35971.53,-26.941314388394634,True,8.0,2020.0,11.0
+reported,total_investment,Industria perpunuese,True,valid,10783337.101666667,90,2020.0,6.0,7894396.209999998,-26.79078716012834,True,8.0,2020.0,11.0
+reported,investment_purchases_imports_without_vat,Informimi dhe komunikimi,True,valid,1338298.6275,90,2021.0,2.0,293785.39666666667,-78.04784443248884,True,36.0,2023.0,3.0
+reported,investment_purchases_imports_nondeductible_vat,Informimi dhe komunikimi,True,valid,106850.14166666666,90,2020.0,8.0,42265.71333333333,-60.443933275084575,True,8.0,2020.0,11.0
+reported,investment_imports_18pct,Informimi dhe komunikimi,True,valid,663366.5166666667,90,2020.0,11.0,116990.46,-82.3641294728196,True,10.0,2021.0,1.0
+reported,investment_imports_8pct,Informimi dhe komunikimi,True,valid,30574.733333333334,90,2020.0,11.0,14732.473333333337,-51.814875463618094,True,10.0,2021.0,1.0
+reported,domestic_investment_purchases_18pct,Informimi dhe komunikimi,True,valid,1496986.155,90,2020.0,5.0,646434.9800000003,-56.81757123531979,True,9.0,2020.0,12.0
+reported,domestic_investment_purchases_8pct,Informimi dhe komunikimi,True,valid,70921.18833333334,90,2020.0,8.0,66177.32666666668,-6.688920163562773,True,6.0,2020.0,9.0
+reported,total_investment,Informimi dhe komunikimi,True,valid,3706997.3625000007,90,2020.0,5.0,1293806.32,-65.09826704793078,True,27.0,2022.0,6.0
+reported,investment_purchases_imports_without_vat,Mungon aktiviteti,False,excluded_from_sector_analysis,107604.91916666667,90,,,,,,,,
+reported,investment_purchases_imports_nondeductible_vat,Mungon aktiviteti,False,excluded_from_sector_analysis,11411.3175,90,,,,,,,,
+reported,investment_imports_18pct,Mungon aktiviteti,False,excluded_from_sector_analysis,1184.2583333333334,90,,,,,,,,
+reported,investment_imports_8pct,Mungon aktiviteti,False,excluded_from_sector_analysis,11.375,90,,,,,,,,
+reported,domestic_investment_purchases_18pct,Mungon aktiviteti,False,excluded_from_sector_analysis,3315.9558333333334,90,,,,,,,,
+reported,domestic_investment_purchases_8pct,Mungon aktiviteti,False,excluded_from_sector_analysis,5.71,90,,,,,,,,
+reported,total_investment,Mungon aktiviteti,False,excluded_from_sector_analysis,123533.53583333333,90,,,,,,,,
+reported,investment_purchases_imports_without_vat,Ndertimtaria,True,valid,5301549.879999999,90,2020.0,5.0,2895714.0433333335,-45.37985855311175,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Ndertimtaria,True,valid,3167637.688333333,90,2020.0,5.0,1225479.1333333333,-61.31252201453239,True,5.0,2020.0,8.0
+reported,investment_imports_18pct,Ndertimtaria,True,valid,1057583.0591666666,90,2020.0,5.0,556514.7566666666,-47.378624133297095,True,12.0,2021.0,3.0
+reported,investment_imports_8pct,Ndertimtaria,True,valid,6650.583333333333,90,2020.0,7.0,176.82333333333455,-97.34123573120151,True,11.0,2021.0,2.0
+reported,domestic_investment_purchases_18pct,Ndertimtaria,True,valid,3913926.933333333,90,2020.0,5.0,3196573.106666667,-18.328237570232954,True,3.0,2020.0,6.0
+reported,domestic_investment_purchases_8pct,Ndertimtaria,True,valid,20987.480833333335,90,2020.0,5.0,10100.836666666664,-51.872086283819144,True,5.0,2020.0,8.0
+reported,total_investment,Ndertimtaria,True,valid,13468335.625,90,2020.0,5.0,7888563.950000002,-41.42881370317796,True,5.0,2020.0,8.0
+reported,investment_purchases_imports_without_vat,Person Fizik,False,excluded_from_sector_analysis,786182.3441666666,90,,,,,,,,
+reported,investment_purchases_imports_nondeductible_vat,Person Fizik,False,excluded_from_sector_analysis,327695.01916666667,90,,,,,,,,
+reported,investment_imports_18pct,Person Fizik,False,excluded_from_sector_analysis,382503.44333333336,90,,,,,,,,
+reported,investment_imports_8pct,Person Fizik,False,excluded_from_sector_analysis,9323.980833333333,90,,,,,,,,
+reported,domestic_investment_purchases_18pct,Person Fizik,False,excluded_from_sector_analysis,1094913.6075000002,90,,,,,,,,
+reported,domestic_investment_purchases_8pct,Person Fizik,False,excluded_from_sector_analysis,20224.03833333333,90,,,,,,,,
+reported,total_investment,Person Fizik,False,excluded_from_sector_analysis,2620842.433333333,90,,,,,,,,
+reported,investment_purchases_imports_without_vat,Sherbimet administrative dhe mbeshtetese,True,valid,404821.1408333333,90,2020.0,6.0,42640.130000000005,-89.46692114146401,True,21.0,2021.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Sherbimet administrative dhe mbeshtetese,True,valid,90516.90666666668,90,2020.0,11.0,6468.2699999999795,-92.85407529024414,True,26.0,2022.0,5.0
+reported,investment_imports_18pct,Sherbimet administrative dhe mbeshtetese,True,valid,105478.75833333332,90,2020.0,11.0,37499.693333333336,-64.44810886488914,True,12.0,2021.0,3.0
+reported,investment_imports_8pct,Sherbimet administrative dhe mbeshtetese,True,valid,1412.43,90,2020.0,6.0,9.383333333333333,-99.33566029230947,True,12.0,2021.0,3.0
+reported,domestic_investment_purchases_18pct,Sherbimet administrative dhe mbeshtetese,True,valid,412263.23333333334,90,2020.0,5.0,255237.8766666667,-38.088615226986434,True,8.0,2020.0,11.0
+reported,domestic_investment_purchases_8pct,Sherbimet administrative dhe mbeshtetese,True,valid,30196.089999999997,90,2020.0,12.0,13953.243333333327,-53.79122484621908,True,12.0,2021.0,3.0
+reported,total_investment,Sherbimet administrative dhe mbeshtetese,True,valid,1044688.5591666666,90,2020.0,6.0,454282.1200000001,-56.515067001176455,True,14.0,2021.0,5.0
+reported,investment_purchases_imports_without_vat,Transporti dhe magazinimi,True,valid,348103.3358333334,90,2020.0,5.0,69854.68000000001,-79.9327748949107,True,3.0,2020.0,6.0
+reported,investment_purchases_imports_nondeductible_vat,Transporti dhe magazinimi,True,valid,350589.5616666667,90,2020.0,5.0,36289.903333333335,-89.64889223717476,True,13.0,2021.0,4.0
+reported,investment_imports_18pct,Transporti dhe magazinimi,True,valid,347099.7075000001,90,2020.0,5.0,197394.2133333333,-43.13040055404448,True,14.0,2021.0,5.0
+reported,investment_imports_8pct,Transporti dhe magazinimi,True,valid,2763.5266666666666,90,2020.0,5.0,120.92,-95.62443158379752,True,15.0,2021.0,6.0
+reported,domestic_investment_purchases_18pct,Transporti dhe magazinimi,True,valid,372343.5225,90,2020.0,5.0,229199.0333333334,-38.444200185237975,True,7.0,2020.0,10.0
+reported,domestic_investment_purchases_8pct,Transporti dhe magazinimi,True,valid,5709.3725,90,2020.0,7.0,3321.1966666666667,-41.829042216694276,True,7.0,2020.0,10.0
+reported,total_investment,Transporti dhe magazinimi,True,valid,1426609.0266666666,90,2020.0,5.0,540403.4866666667,-62.119720500483396,True,14.0,2021.0,5.0
+reported,investment_purchases_imports_without_vat,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,5224965.085833333,90,2020.0,5.0,2385697.7533333334,-54.34040775120631,True,9.0,2020.0,12.0
+reported,investment_purchases_imports_nondeductible_vat,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,1097642.0291666666,90,2020.0,6.0,678083.4366666665,-38.22362677006185,True,7.0,2020.0,10.0
+reported,investment_imports_18pct,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,2562956.825,90,2020.0,6.0,1481753.13,-42.18579433151396,True,13.0,2021.0,4.0
+reported,investment_imports_8pct,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,55620.94583333333,90,2020.0,6.0,52521.82999999999,-5.571850292909009,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_18pct,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,7061881.425000001,90,2020.0,5.0,5184440.866666667,-26.585557662961378,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,356957.545,90,2020.0,8.0,97363.84333333334,-72.72397104441836,True,16.0,2021.0,7.0
+reported,total_investment,Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,True,valid,16360023.855833335,90,2020.0,5.0,10257207.08,-37.30322663103765,True,8.0,2020.0,11.0
+reported,investment_purchases_imports_without_vat,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,investment_purchases_imports_nondeductible_vat,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,investment_imports_18pct,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,investment_imports_8pct,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,domestic_investment_purchases_18pct,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,domestic_investment_purchases_8pct,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,total_investment,"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",True,no_positive_2019_baseline,,46,,,,,,,,
+reported,domestic_investment_purchases_18pct,ALL,True,valid,23884865.833333332,90,2020.0,5.0,17798725.25,-25.48115876305076,True,4.0,2020.0,7.0
+reported,domestic_investment_purchases_8pct,ALL,True,valid,679093.5208333334,90,2020.0,8.0,419943.7433333334,-38.1611323845338,True,9.0,2020.0,12.0
+reported,investment_imports_18pct,ALL,True,valid,8049620.343333334,90,2020.0,5.0,4693791.430000002,-41.68928185678493,True,13.0,2021.0,4.0
+reported,investment_imports_8pct,ALL,True,valid,176561.06750000003,90,2020.0,7.0,99429.34000000004,-43.68558062779042,True,6.0,2020.0,9.0
+reported,investment_purchases_imports_nondeductible_vat,ALL,True,valid,7589259.284166668,90,2020.0,5.0,4157827.6566666663,-45.21431537671844,True,5.0,2020.0,8.0
+reported,investment_purchases_imports_without_vat,ALL,True,valid,24579200.1075,90,2020.0,5.0,11153505.909999998,-54.62217703904587,True,9.0,2020.0,12.0
+reported,total_investment,ALL,True,valid,64958600.156666666,90,2020.0,5.0,38583013.99333333,-40.60368619354618,True,7.0,2020.0,10.0
