@@ -394,6 +394,12 @@ For 2025, the import share of identified-origin amounts is **19.03%**. With alte
 
 *Import share by municipality, 2019–2026 pooled. Left: coloured around the Kosovo average (19%), blue below and red above. Right: the same shares as equal-frequency tertiles. Prishtinë and its surroundings rely least on imports; the south-west and the east rely most. Grey municipalities have less than EUR 1 million of identified-origin investment and are not compared. Boundaries are the same static reference used in Pipeline B.*
 
+By sector, **no sector is import-dominant**. Transport and storage has the highest identified-origin import share (**43%**), followed by arts and recreation (**33%**), information and communication (**28%**) and manufacturing (**25%**): sectors that invest in machinery and equipment. Real estate (**2%**), accommodation, energy and public administration (about **10%**) invest mainly domestically. Education, health and finance know the origin of only about **16%** of their amounts, so their shares are flagged as not comparable. Only 4 of 19 sectors keep the same origin class across the lower and upper bounds.
+
+![Import share of identified-origin investment by sector](outputs/figures/pipeline_c/c1_sector_import_share.png)
+
+*Import share by sector, 2019–2026 pooled. Whiskers are 95% year-stratified bootstrap intervals and capture random variation only, not the unknown origin of the mixed columns. Hatched bars mark sectors where less than 25% of the amount has a known origin.*
+
 **Notebook:** [Import dependency and investment structure](notebooks/04_pipeline_c_import_dependency.ipynb).
 
 ---
