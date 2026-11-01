@@ -1,0 +1,24 @@
+﻿primary_sector,sector_code,sector_eligible
+Administrimi publik dhe mbrojtja; Sigurimi social i detyrueshem,S01,True
+Akomodimi dhe sherbimi ushqimor,S02,True
+"Aktivitetet e ekonomive familjare si punedhenes; Mallrat dhe sherbimet e padiferencuara, Aktivitetet e ekonomive familjare per perdorim vetanak",S03,True
+Aktivitetet e patundshmerise,S04,True
+Aktivitetet e shendetit te njeriut dhe te punes sociale,S05,True
+Aktivitetet e tjera sherbyese,S06,True
+Aktivitetet e trupave dhe organizatave nderkombetare,S07,True
+Aktivitetet financiare dhe te sigurimit,S08,True
+"Aktivitetet profesionale, shkencore dhe teknike",S09,True
+Arsimi,S10,True
+"Artet, Argetimi dhe rekreacioni",S11,True
+Bujqesia;Pylltaria dhe Peshkimi,S12,True
+"Furnizimi me rryme, gaz, avull dhe  ajer te kondicionuar",S13,True
+Furnizimi me uje; Kanalizimi; Aktivitetet e menaxhimit dhe te trajtimit te mbeturinave,S14,True
+Industria nxjerrese,S15,True
+Industria perpunuese,S16,True
+Informimi dhe komunikimi,S17,True
+Mungon aktiviteti,S18,False
+Ndertimtaria,S19,True
+Person Fizik,S20,False
+Sherbimet administrative dhe mbeshtetese,S21,True
+Transporti dhe magazinimi,S22,True
+Tregtia me shumice dhe pakice; Riparimi i mjeteve motorike dhe motoeikletave,S23,True
