@@ -217,7 +217,7 @@ data/processed/common_dataset.csv
 | Extra spaces in labels | Trimmed (1,414 cells) | Formatting error; original labels kept |
 | `Mungon aktiviteti` | Kept and flagged | No correct sector is known |
 | Zeros | Kept | Zero is a real value, not a missing one |
-| Negative amounts | Kept and flagged | Likely corrections of earlier declarations ([ATK legislation, p. 419](https://www.atk-ks.org/wp-content/uploads/2017/12/Legjislacioni-Tatimor-i-Kosov%C3%ABs-Botimi-III.pdf)) |
+| Negative amounts | Kept and flagged | Negative amounts have an accounting meaning: ATK documents purchase reductions recorded as negative values ([ATK legislation, p. 419](https://www.atk-ks.org/wp-content/uploads/2017/12/Legjislacioni-Tatimor-i-Kosov%C3%ABs-Botimi-III.pdf)) |
 | Very large amounts | Flagged, not removed | Can be real large investments; checked in Phase II |
 
 Every change is written to `04_cleaning_audit.csv` with its old and new value.
