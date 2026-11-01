@@ -48,6 +48,9 @@ class PipelineCTests(unittest.TestCase):
         self.assertEqual(shares.share_status.tolist(), ['valid', 'zero_identified', 'negative_component', 'valid'])
         self.assertTrue(np.isnan(shares.import_share[1]) and np.isnan(shares.import_share[2]))
         self.assertAlmostEqual(shares.import_share_upper[1], 1.)
+        self.assertAlmostEqual(shares.identified_coverage[0], .5)
+        self.assertAlmostEqual(shares.identified_coverage[1], 0.)
+        self.assertTrue(np.isnan(shares.identified_coverage[2]))
 
     def test_aggregation_reconciles_and_jan_jun_window(self):
         data = investment_fixture()

@@ -1,5 +1,5 @@
 import importlib
-from phase_1.pipeline_c import VALIDATION, SEED, BOOTSTRAP_ITERATIONS, load_input, save_json
+from phase_1.pipeline_c import VALIDATION, SEED, BOOTSTRAP_ITERATIONS, LOW_COVERAGE, load_input, save_json
 
 
 def stage(name):
@@ -22,6 +22,8 @@ def main():
         sampling, _, _ = stage('05b_sample_sensitivity').main(data)
         figures = stage('06_visualization').main()
         national = classified['national'].query("window == 'reported'")
+        sectors = classified['sector_pooled'].query("window == 'reported' and sector_eligible and share_status == 'valid'")
+        low_coverage = sectors.loc[sectors.identified_coverage.lt(LOW_COVERAGE)]
         save_json(dict(status='PASS', input_records=len(data), input_sha256=status['dataset_sha256'],
             selected_features=selection.loc[selection.selected, 'measure'].tolist(),
             dropped_features=selection.loc[~selection.selected, 'measure'].tolist(),
@@ -32,6 +34,9 @@ def main():
                            stability=intervals.loc[intervals.sector_eligible].stability.value_counts().to_dict()),
             sample_sensitivity_mean_abs_error_pp={f'{row.method}/{row.level}': round(float(row.mean_abs_error_pp), 3)
                                                   for row in sampling.itertuples()},
+            low_coverage_threshold=LOW_COVERAGE,
+            low_coverage_sectors={row.primary_sector: round(float(row.identified_coverage), 3) for row in low_coverage.itertuples()},
+            class_robust_sectors=f'{int(sectors.class_robust.sum())} of {len(sectors)}',
             ranked_municipalities=len(ranking), figures=[path.name for path in figures]), VALIDATION)
         print('Pipeline C: PASS')
     except Exception as error:

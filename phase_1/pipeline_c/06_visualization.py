@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
 from matplotlib.patches import Patch, PathPatch
-from phase_1.pipeline_c import (CLASS_LABELS, RELATIVE_LABELS, MIN_MUNICIPAL_VALUE, FIGURES, TABLES,
+from phase_1.pipeline_c import (CLASS_LABELS, RELATIVE_LABELS, MIN_MUNICIPAL_VALUE, LOW_COVERAGE, FIGURES, TABLES,
                                 short_sector, read_table, mark_running)
 
 # Same boundary file, hash check and name crosswalk as Pipeline B, so both maps use one verified reference.
@@ -47,15 +47,26 @@ def sector_order(bootstrap):
     return view.sort_values('import_share').reset_index(drop=True)
 
 
-def sector_share_chart(bootstrap):
+def sector_share_chart(bootstrap, sectors):
     view = sector_order(bootstrap)
+    coverage = sectors.loc[sectors.window.eq('reported')].set_index('primary_sector').identified_coverage
+    view['coverage'] = view.primary_sector.map(coverage)
+    low = view.coverage.lt(LOW_COVERAGE)
     figure, axis = plt.subplots(figsize=(10, 0.38 * len(view) + 1.6))
     y = np.arange(len(view))
-    axis.barh(y, view.import_share, height=.62, color=view.origin_class.map(CLASS_COLORS), edgecolor=SURFACE, linewidth=1)
+    bars = axis.barh(y, view.import_share, height=.62, color=view.origin_class.map(CLASS_COLORS), edgecolor=SURFACE, linewidth=1)
+    for bar, flagged in zip(bars, low):
+        if flagged:   # a share that describes only a small part of the sector's money: hatched, lighter
+            bar.set_alpha(.45)
+            bar.set_hatch('////')
+            bar.set_edgecolor(INK)
+            bar.set_linewidth(0)
     axis.errorbar(view.import_share, y, xerr=[view.import_share - view.ci_low, view.ci_high - view.import_share],
                   fmt='none', ecolor=INK, elinewidth=1, capsize=2.5)
     for k, row in view.iterrows():
-        axis.text(row.ci_high + .012, k, f'{row.import_share:.0%}', va='center', fontsize=8.5, color=SECONDARY)
+        note = f'   origin known for only {row.coverage:.0%} of the money' if low[k] else ''
+        axis.text(row.ci_high + .012, k, f'{row.import_share:.0%}{note}', va='center', fontsize=8.5,
+                  color=IMPORT if low[k] else SECONDARY)
     for line in (1 / 3, 2 / 3):
         axis.axvline(line, color=GRID, linewidth=1, zorder=0)
     axis.axvline(.5, color=MUTED, linewidth=1, linestyle='--', zorder=0)
@@ -64,10 +75,14 @@ def sector_share_chart(bootstrap):
     percent_axis(axis)
     axis.set_xlabel('Import share of identified-origin investment  =  imports / (imports + domestic purchases)')
     axis.set_title('Import share of business investment by sector, 2019–2026')
-    class_legend(axis, loc='lower right', fontsize=8.5)
+    handles = [Patch(color=CLASS_COLORS[c], label=CLASS_NAMES[c]) for c in CLASS_LABELS]
+    handles.append(Patch(facecolor=DOMESTIC, alpha=.45, hatch='////', edgecolor=INK, linewidth=0,
+                         label=f'Origin known for < {LOW_COVERAGE:.0%} of the money: not comparable'))
+    axis.legend(handles=handles, loc='center right', fontsize=8.5)
     figure.tight_layout()
-    figure.text(.01, -.01, 'Whiskers: 95% year-stratified bootstrap interval. Dashed line: 50% (import-dominant). '
-                'Unclassified and "Person Fizik" labels excluded.', fontsize=8, color=MUTED)
+    figure.text(.01, -.01, 'Whiskers: 95% year-stratified bootstrap interval (random variation only, not the unknown origin '
+                'of the mixed columns). Dashed line: 50% (import-dominant). Unclassified and "Person Fizik" labels excluded.',
+                fontsize=8, color=MUTED)
     return save(figure, 'c1_sector_import_share')
 
 
@@ -299,7 +314,7 @@ def main(persist=True):
     scores, loadings, explained = read_table('pca_scores'), read_table('pca_loadings'), read_table('pca_explained_variance')
     municipal = read_table('municipal_pooled_classes')
     sampling, sampling_sectors = read_table('sample_sensitivity_summary'), read_table('sample_sensitivity_sectors')
-    paths = [sector_share_chart(bootstrap), composition_chart(sectors, bootstrap), national_chart(national),
+    paths = [sector_share_chart(bootstrap, sectors), composition_chart(sectors, bootstrap), national_chart(national),
              municipal_chart(ranking), biplot(scores, loadings, explained), municipal_map(municipal),
              sample_sensitivity_chart(sampling, sampling_sectors)]
     print(f'C06: {len(paths)} figures saved to {FIGURES.relative_to(FIGURES.parents[2])}.')

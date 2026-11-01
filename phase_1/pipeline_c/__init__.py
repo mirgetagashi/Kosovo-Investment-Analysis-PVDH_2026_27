@@ -27,6 +27,9 @@ SHORT_LABELS = {
 }
 
 DOMINANCE_THRESHOLD = .5
+# Below this share of known-origin money, an import share describes too little of the sector to be compared
+# with the others: it is still computed, but flagged in tables and charts.
+LOW_COVERAGE = .25
 CLASS_BINS = [0, 1 / 3, 2 / 3, 1]
 CLASS_LABELS = ['mostly_domestic', 'mixed', 'mostly_import']
 RELATIVE_LABELS = ['lower_import_reliance', 'middle_import_reliance', 'higher_import_reliance']
@@ -65,6 +68,7 @@ def origin_shares(table):
     import_share       = import / (import + domestic)          identified-origin share (main measure)
     import_share_lower = import / total                         if every mixed euro were domestic
     import_share_upper = (import + mixed) / total               if every mixed euro were imported
+    identified_coverage = (import + domestic) / total          how much of the money import_share describes
     import_share always lies between the lower and upper bound.
     """
     table = table.copy()
@@ -78,6 +82,7 @@ def origin_shares(table):
     table['import_share_lower'] = table.import_total.div(total.where(bounded))
     table['import_share_upper'] = (table.import_total + table.mixed_total).div(total.where(bounded))
     table['mixed_share'] = table.mixed_total.div(total.where(bounded))
+    table['identified_coverage'] = identified.div(total.where(bounded))
     return table
 
 
