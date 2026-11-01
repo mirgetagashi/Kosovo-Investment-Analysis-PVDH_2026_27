@@ -356,3 +356,118 @@ Relative specialization tells a different story: Zubin Potok has transport/stora
 **Notebook:** [Municipal concentration and sector specialization](notebooks/02_pipeline_b_geography_specialization.ipynb).
 
 ---
+
+## Pipeline C — Import Dependency and Investment Structure
+
+**Question:** How much of the identified-origin reported amount comes from imports, and which sectors are more domestically oriented?
+
+The source columns are grouped into **imports (I)**, **domestic purchases (D)** and **mixed purchases/imports (M)**. The mixed group is kept separate rather than incorrectly assigned to imports.
+
+The principal indicator uses identifiable origin only:
+
+$$
+ImportShare=\frac{I}{I+D}
+$$
+
+Under the working additive-category interpretation, alternative allocations of the mixed group give report-based bounds:
+
+$$
+Lower=\frac{I}{I+D+M}, \qquad Upper=\frac{I+M}{I+D+M}
+$$
+
+Shares are ratios of aggregate sums, not averages of row-level percentages. Empty denominators or negative origin components leave point estimates undefined.
+
+| Stage | Technique and purpose |
+|---|---|
+| Feature creation/aggregation | Origin groups, national/sector/municipal totals and coverage diagnostics |
+| Feature subset selection | Nonzero-indicator variance ≥0.0475 and monetary value share ≥1% |
+| Transformation | `log1p`, then z-score standardization of selected sector-year attributes |
+| Dimensionality reduction | PCA through SVD; inspect explained variance, loadings and a two-component biplot |
+| Discretization/binarization | Origin classes around one-third/two-thirds, import-dominant flag above 50%, relative rank tertiles |
+| Sampling | 1,000 year-stratified bootstrap replicates per sector, seed 42, with percentile intervals; 10% simple, year × sector stratified and take-all-largest samples over 50 draws |
+
+Four attributes are selected for PCA; the two 8% attributes remain in financial aggregates but are excluded from this multivariate feature set. PCA uses **133 eligible sector-year rows from complete years 2019–2025**. The first two components explain **91.47%** of variance: PC1 mainly reflects scale, while PC2 distinguishes the mixed/VAT-treatment structure rather than a simple import-versus-domestic axis.
+
+For 2025, the import share of identified-origin amounts is **19.03%**. With alternative allocations of mixed amounts, the report-based bounds are **11.84%–49.62%**. These measures have different denominators and must not be presented interchangeably.
+
+![Import share of identified-origin investment by municipality](outputs/figures/pipeline_c/c6_municipal_import_share_map.png)
+
+*Import share by municipality, 2019–2026 pooled. Left: coloured around the Kosovo average (19%), blue below and red above. Right: the same shares as equal-frequency tertiles. Prishtinë and its surroundings rely least on imports; the south-west and the east rely most. Grey municipalities have less than EUR 1 million of identified-origin investment and are not compared. Boundaries are the same static reference used in Pipeline B.*
+
+**Notebook:** [Import dependency and investment structure](notebooks/04_pipeline_c_import_dependency.ipynb).
+
+---
+
+## Mapping to Phase 1 Coursework Requirements
+
+| Requirement | Where it is demonstrated |
+|---|---|
+| Collection, type definition, data quality | Original Excel files; Common 01–02; schema and quality profiles |
+| Integration | Common 03; one schema with source-row provenance |
+| Cleaning and missing-value strategy | Common 04–05; whitespace correction, retained values and explicit missingness flags |
+| Aggregation | Time levels in A, municipality/sector levels in B, origin-group levels in C |
+| Sampling | A bootstrap/random/stratified comparisons; B weighted stratification; C bootstrap and 10% sample designs |
+| Feature subset selection | Relevant source attributes in A/B; explicit multivariate selection criteria in C |
+| Feature creation | Growth/calendar/trend attributes in A; share/HHI/LQ in B; origin totals/shares in C |
+| Discretization and binarization | Growth classes in A, share/LQ bands in B, origin classes and dominance flags in C |
+| Transformation | Indices, decomposition, log1p and z-scores in A; log1p and standardization in C |
+| Dimensionality reduction | PCA and two-component representation in C |
+
+The requirements are covered across the project. PCA is not added to B merely to repeat a technique: municipal shares, HHI and LQ directly serve its research question.
+
+---
+
+## Running the project
+
+Use the versions in `requirements.txt` (**pandas < 3**: pandas 3 changes string and boolean types and stops the validation). A virtual environment keeps them apart from other projects:
+
+```powershell
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\python -m phase_1.run_common_preprocessing
+.venv\Scripts\python -m phase_1.pipeline_a.run_pipeline_a
+.venv\Scripts\python -m phase_1.pipeline_c.run_pipeline_c
+.venv\Scripts\python -m phase_1.pipeline_b.run_pipeline_b
+.venv\Scripts\python -m unittest discover -s tests -t .
+```
+
+B runs last because it records a snapshot of the A and C checkpoints. Close the Excel files first: Excel's `~$` lock files in `data/raw/` stop the inspection. The notebooks only read the saved outputs.
+
+---
+
+## Validation and limitations
+
+- Common validation, A, B and C all finish with status `PASS`; **56 automated tests** pass.
+- The amounts are **self-declared** in VAT declarations, not verified investment; the currency is assumed to be EUR.
+- The two mixed columns (about 40% of the value) cannot be split into imports and domestic purchases, so C reports a range.
+- 2026 covers January–June only and is compared through the `jan_jun` window.
+- Zeros, negative corrections and extreme values are kept and flagged; outlier treatment is Phase II.
+- Results describe reported values; they do not establish causes, such as the effect of COVID-19.
+
+---
+
+## References
+
+- [University of Prishtina logo — Wikimedia Commons, AceDouble](https://commons.wikimedia.org/wiki/File:University_of_Prishtina_logo.svg); displayed on a white background for readability.
+- [ATK Open Data](https://www.atk-ks.org/open-data/) and [Open Data user guide](https://www.atk-ks.org/wp-content/uploads/2024/02/Te-dhenat-e-hapura-Udhezues.pdf).
+- [ATK tax legislation compilation, p. 419](https://www.atk-ks.org/wp-content/uploads/2017/12/Legjislacioni-Tatimor-i-Kosov%C3%ABs-Botimi-III.pdf): negative purchase corrections.
+- [BEA: Location Quotients](https://www.bea.gov/help/faq/478): relative sector-share definition, adapted here to reported monetary amounts.
+- [DOJ: HHI formula](https://www.justice.gov/atr/herfindahl-hirschman-index): sum of squared shares; legal market-concentration thresholds are not applied here.
+- [geoBoundaries Kosovo ADM2 metadata](https://www.geoboundaries.org/api/current/gbOpen/XKX/ADM2/): provenance of the locally saved municipality boundaries.
+
+---
+
+## Project Team and Course Staff
+
+### Group Members
+
+- Erza Gashi
+- Kaltrina Krasniqi
+- Mirgeta Gashi
+
+### Course Staff
+
+| Role | Name |
+|---|---|
+| Professor | Dr. Sc. Mërgim H. HOTI |
+| Teaching assistant | Blend Berisha |
