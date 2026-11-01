@@ -1,0 +1,25 @@
+﻿rule,attribute,year,original_value,new_value,affected_records,reason
+TRIM_EDGE_WHITESPACE,registration_status,2019, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2019, Konsorcium,Konsorcium,98,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2019, Përfaqësues Fiskal,Përfaqësues Fiskal,66,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2020, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2020, Konsorcium,Konsorcium,130,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2020, Përfaqësues Fiskal,Përfaqësues Fiskal,58,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2021, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2021, Konsorcium,Konsorcium,128,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2021, Përfaqësues Fiskal,Përfaqësues Fiskal,48,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2022, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2022, Konsorcium,Konsorcium,132,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2022, Përfaqësues Fiskal,Përfaqësues Fiskal,48,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2023, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2023, Konsorcium,Konsorcium,145,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2023, Përfaqësues Fiskal,Përfaqësues Fiskal,48,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2024, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2024, Konsorcium,Konsorcium,134,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2024, Përfaqësues Fiskal,Përfaqësues Fiskal,41,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2025, Bashkësi Fetare,Bashkësi Fetare,12,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2025, Konsorcium,Konsorcium,120,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2025, Përfaqësues Fiskal,Përfaqësues Fiskal,41,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2026, Bashkësi Fetare,Bashkësi Fetare,6,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2026, Konsorcium,Konsorcium,58,Non-semantic leading/trailing whitespace; original label preserved
+TRIM_EDGE_WHITESPACE,registration_status,2026, Përfaqësues Fiskal,Përfaqësues Fiskal,29,Non-semantic leading/trailing whitespace; original label preserved

@@ -1,0 +1,9 @@
+﻿year,file,sheet,physical_rows,physical_columns,header_row,records,summary_rows,metadata_rows,blank_rows,separators,months,reporting_scope
+2019,Investimet-2019.xlsx,OD_Investimet.rdl,16403,16,6,16395,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2020,Investimet-2020.xlsx,OD_Investimet.rdl,16315,16,6,16307,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2021,Investimet-2021.xlsx,OD_Investimet.rdl,15957,16,6,15949,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2022,Investimet-2022.xlsx,OD_Investimet.rdl,16208,16,6,16201,1,1,4,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2023,Investimet-2023.xlsx,OD_Investimet.rdl,16340,16,6,16332,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2024,Investimet-2024.xlsx,OD_Investimet.rdl,17257,16,6,17249,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2025,Investimet-2025.xlsx,OD_Investimet.rdl,17222,16,6,17214,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12",Twelve represented months
+2026,Investimet-2026.xlsx,OD_Investimet.rdl,8623,16,6,8615,1,1,5,"D, I, L, O","1, 2, 3, 4, 5, 6",January-June only

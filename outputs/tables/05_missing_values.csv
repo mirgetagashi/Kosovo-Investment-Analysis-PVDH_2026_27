@@ -1,0 +1,13 @@
+﻿attribute,missing_attribute,nulls,blanks,placeholders,domain_unavailable,missing_cells,missing_percent,encoded_missing_rule,decision,imputed_cells
+year,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+month,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+primary_sector,False,0,0,0,4484,4484,3.6085046112246704,Generic placeholders; sector: Mungon aktiviteti (activity unavailable),Retain and review; no supported imputation,0
+registration_status,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+municipality,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+taxpayer_count,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+investment_purchases_imports_without_vat,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+investment_purchases_imports_nondeductible_vat,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+investment_imports_18pct,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+investment_imports_8pct,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+domestic_investment_purchases_18pct,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
+domestic_investment_purchases_8pct,False,0,0,0,0,0,0.0,Generic placeholders,No imputation necessary,0
