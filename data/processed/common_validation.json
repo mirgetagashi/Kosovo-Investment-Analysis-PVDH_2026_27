@@ -1,0 +1,11 @@
+{
+  "checks": {
+    "PASS": 12,
+    "REVIEW": 1,
+    "REVIEW/UNRESOLVED": 6
+  },
+  "dataset_sha256": "49eea2046fec1cabf44b87a07a4073bc3c824a210c7b6f868435ef80cbe6c9c6",
+  "domain_status": "REVIEW/UNRESOLVED",
+  "mandatory_status": "PASS",
+  "records": 124262
+}
